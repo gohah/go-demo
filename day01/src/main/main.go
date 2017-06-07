@@ -2,6 +2,7 @@ package main
 
 import(
 	"fmt"
+	"calc"
 )
 
 var pipe chan int
@@ -16,7 +17,13 @@ func main() {
 	//
 	//fmt.Println(c)
 
-	a,b := calc(1,2)
 
-	fmt.Println(a,b)
+	//a,b := calc(1,2)
+	//
+	//fmt.Println(a,b)
+
+
+	c := calc.Add(1,2)
+
+	fmt.Println(c)
 }
