@@ -4,6 +4,7 @@
     <option name="urls">
       <list>
         <option value="file://$PROJECT_DIR$/day01" />
+        <option value="file://$PROJECT_DIR$/day02" />
       </list>
     </option>
   </component>
