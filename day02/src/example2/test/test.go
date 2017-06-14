@@ -1,14 +1,19 @@
 package test
 
-import "fmt"
 
-var Name string = "gohah2"
+import(
+	"fmt"
+)
 
-var Age int = 55
 
+var Name string = "this is in test package"
+var Age int = 1000
 
 func init() {
-	fmt.Println("test init .....")
-	fmt.Printf("test Name is %s\n",Name)
-	fmt.Printf("test Age is %d\n",Age)
+	fmt.Println("this is a test")
+	fmt.Println("test.package.Name=", Name)
+	fmt.Println("test.package.age=", Age)
+
+	Age = 10
+	fmt.Println("test.package.age=", Age)
 }
