@@ -12,9 +12,13 @@ type Person struct {
 func main() {
 
 	//p := Person{"gohah",22}
-	p := Person{name:"gohah",age:23}
+	//p := Person{name:"gohah",age:23}
+	//
+	//fmt.Println(p.name)
+	//
+	//fmt.Println(p.age)
 
-	fmt.Println(p.name)
+	var str string = "abcdefghijklmnopqrstuvwxyz"
 
-	fmt.Println(p.age)
+	fmt.Println(str[1:2])
 }
