@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>测试模板</title>
+</head>
+<body>
+    <h1>content</h1>
+    <p>
+        {{.score}}
+
+        {{if gt .score 100}}
+            <span>hah</span>
+        {{else}}
+            <span>cry</span>
+        {{end}}
+
+            <br/>
+
+        {{.request.Method}}
+
+        {{range $k,$v := .arr}}
+            <br/>
+            {{$k}}=>{{$v}}
+        {{end}}
+    </p>
+</body>
+</html>
