@@ -20,6 +20,7 @@ func testTemplate(w http.ResponseWriter, r * http.Request) {
 	}
 
 	score := r.FormValue("score")
+
 	scored,_ := strconv.Atoi(score)
 
 	err = tmpl.Execute(w,map[string]interface{}{
