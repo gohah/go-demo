@@ -1,0 +1,5 @@
+<form action="/new_message" method="post">
+    {{ .xsrfdata }}
+    <input type="text" name="message"/>
+    <input type="submit" value="Post"/>
+</form>

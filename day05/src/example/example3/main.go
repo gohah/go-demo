@@ -9,7 +9,7 @@ type Student struct {
 	left  *Student
 	right *Student
 }
-
+//遍历二叉树
 func trans(root *Student) {
 	if root == nil {
 		return

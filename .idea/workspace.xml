@@ -2,9 +2,105 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b0093c9-bce4-4fe5-8b3f-c0646c8d9838" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/bin/beego" afterPath="$PROJECT_DIR$/framework/bin/beego" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/bin/bee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/bin/beego" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/bin/fund" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/bin/hello" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/fund/controllers.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/fund/routers.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/astaxie/beego.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/astaxie/beego/config.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/astaxie/beego/context.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/astaxie/beego/context/param.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/astaxie/beego/grace.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/astaxie/beego/logs.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/astaxie/beego/session.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/astaxie/beego/toolbox.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/astaxie/beego/utils.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/api.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/bale.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/beefix.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/dlv.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/dockerize.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/generate.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/hprose.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/migrate.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/new.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/pack.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/rs.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/run.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/cmd/commands/version.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/config.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/generate.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/generate/swaggergen.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/logger.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/logger/colors.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/utils.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/astaxie/beego/swagger.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/astaxie/beego/utils.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/config.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/dwarf/frame.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/dwarf/line.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/dwarf/op.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/dwarf/reader.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/dwarf/util.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/proc.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service/api.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service/debugger.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service/rpc1.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service/rpc2.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/service/rpccommon.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/terminal.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/derekparker/delve/version.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/fsnotify/fsnotify.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/go-sql-driver/mysql.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/gorilla/websocket.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/lib/pq.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/lib/pq/oid.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/github.com/peterh/liner.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/golang.org/x/debug/dwarf.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/golang.org/x/debug/macho.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/golang.org/x/sys/unix.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/gopkg.in/yaml.v2.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/github.com/beego/bee/vendor/rsc.io/x86/x86asm.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/hello/controllers.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/pkg/darwin_amd64/hello/routers.a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/api-center/conf/app.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/api-center/controllers/object.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/api-center/controllers/user.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/api-center/main.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/api-center/models/object.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/api-center/models/user.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/api-center/routers/router.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/api-center/tests/default_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/fund/conf/app.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/fund/controllers/default.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/fund/controllers/user.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/fund/fund" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/fund/main.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/fund/routers/router.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/fund/static/js/reload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/fund/tests/default_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/fund/views/index.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/hello/conf/app.conf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/hello/controllers/default.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/hello/hello" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/hello/main.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/hello/routers/router.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/hello/static/js/reload.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/hello/tests/default_test.go" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/framework/src/hello/views/index.tpl" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/src/github.com/astaxie/beego" afterPath="$PROJECT_DIR$/framework/src/github.com/astaxie/beego" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/src/github.com/beego/bee" afterPath="$PROJECT_DIR$/framework/src/github.com/beego/bee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/goLibraries.xml" afterPath="$PROJECT_DIR$/.idea/goLibraries.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day01/src/test/main/main.go" afterPath="$PROJECT_DIR$/day01/src/test/main/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day04/src/example/example1/main.go" afterPath="$PROJECT_DIR$/day04/src/example/example1/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day05/src/example/example2/main.go" afterPath="$PROJECT_DIR$/day05/src/example/example2/main.go" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/day05/src/example/example3/main.go" afterPath="$PROJECT_DIR$/day05/src/example/example3/main.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,12 +123,36 @@
     <favorites_list name="go" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day10/src/example/template/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day10/src/example/template/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="83">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="e#14#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,6 +164,7 @@
       <dir>$PROJECT_DIR$/day04/src/demo1</dir>
       <dir>$PROJECT_DIR$/day04/src/example</dir>
       <dir>$PROJECT_DIR$/day05/src/work</dir>
+      <dir>$PROJECT_DIR$/day07</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -52,57 +173,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day03/src/example/example1/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example2/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example3/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example4/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example5/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example6/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example7/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example8/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example9/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example10/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example11/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example12/main.go" />
-        <option value="$PROJECT_DIR$/day03/src/example/example13/main.go" />
-        <option value="$PROJECT_DIR$/framework/src/main/hello.go" />
-        <option value="$PROJECT_DIR$/framework/src/hello/hello.go" />
+        <option value="$PROJECT_DIR$/day07/work/example1/main/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/work/example1/main/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/work/main/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/work/eg1/balance/instance.go" />
+        <option value="$PROJECT_DIR$/day07/src/work/eg1/balance/balance.go" />
+        <option value="$PROJECT_DIR$/day07/src/work/eg1/balance/random.go" />
+        <option value="$PROJECT_DIR$/day07/src/work/eg1/balance/roundrobin.go" />
+        <option value="$PROJECT_DIR$/day07/src/work/eg1/balance/mgr.go" />
+        <option value="$PROJECT_DIR$/day07/src/work/eg1/main/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/work/eg1/main/hash.go" />
+        <option value="$PROJECT_DIR$/day07/src/example/example1/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/example/example2/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/example/example3/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/example/example4/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/example/example5/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/example/example6/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/example/example7/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/example/example8/main.go" />
+        <option value="$PROJECT_DIR$/day07/src/example/example9/main.go" />
+        <option value="$PROJECT_DIR$/day01/src/test/main/main.go" />
+        <option value="$PROJECT_DIR$/day08/src/goroutine/main.go" />
+        <option value="$PROJECT_DIR$/day08/src/goroutine_sync/main.go" />
+        <option value="$PROJECT_DIR$/day08/src/channel/main.go" />
+        <option value="$PROJECT_DIR$/day08/src/goroutine_channel/main.go" />
+        <option value="$PROJECT_DIR$/day08/src/ticker/main.go" />
+        <option value="$PROJECT_DIR$/day08/src/ticker_1/main.go" />
+        <option value="$PROJECT_DIR$/day08/src/timeout/main.go" />
+        <option value="$PROJECT_DIR$/day08/src/test/main.go" />
+        <option value="$PROJECT_DIR$/day08/src/test/cal.go" />
+        <option value="$PROJECT_DIR$/day08/src/test/cal_test.go" />
+        <option value="$PROJECT_DIR$/day08/src/channel_close/main.go" />
         <option value="$PROJECT_DIR$/framework/src/hello/controllers/default.go" />
-        <option value="$PROJECT_DIR$/day04/src/work/example1/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/work/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/work/example2/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/work/example4/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/work/example3/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/work/example5/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example1/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example2/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example3/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example4/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example5/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example6/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example7/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example8/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example9/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example10/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example11/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example12/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example13/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example14/main.go" />
-        <option value="$PROJECT_DIR$/day04/src/example/example16/main.go" />
-        <option value="$PROJECT_DIR$/framework/src/fund/controllers/default.go" />
-        <option value="$PROJECT_DIR$/framework/src/fund/conf/app.conf" />
-        <option value="$PROJECT_DIR$/framework/src/fund/routers/router.go" />
-        <option value="$PROJECT_DIR$/framework/src/fund/controllers/user.go" />
-        <option value="$PROJECT_DIR$/day05/src/example/example1/main.go" />
-        <option value="$PROJECT_DIR$/day05/src/work/bsort/main.go" />
-        <option value="$PROJECT_DIR$/day05/src/work/isort/main.go" />
-        <option value="$PROJECT_DIR$/day05/src/work/qsort/main.go" />
-        <option value="$PROJECT_DIR$/day05/src/work/ssort/main.go" />
-        <option value="$PROJECT_DIR$/day05/src/example/example2/main.go" />
-        <option value="$PROJECT_DIR$/day05/src/example/example4/main.go" />
-        <option value="$PROJECT_DIR$/day05/src/example/example5/main.go" />
-        <option value="$PROJECT_DIR$/day05/src/example/example6/main.go" />
-        <option value="$PROJECT_DIR$/day05/src/example/example7/main.go" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/admin/UserController.go" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/controllers/RController.go" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/controllers/ObjectController.go" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/controllers/CMSController.go" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/views/index.tpl" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/views/index.html" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/controllers/default.go" />
+        <option value="$PROJECT_DIR$/day01/src/example1/demo1.go" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/controllers/UserController.go" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/views/form1.html" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/models/Student.go" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/conf/app.conf" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/routers/router.go" />
+        <option value="$PROJECT_DIR$/framework/src/gohah/controllers/ParamController.go" />
+        <option value="$PROJECT_DIR$/day10/src/example/example_1/main.go" />
+        <option value="$PROJECT_DIR$/day10/src/example/example_2/main.go" />
+        <option value="$PROJECT_DIR$/day10/src/example/example_3/main.go" />
+        <option value="$PROJECT_DIR$/day10/src/example/template/main.go" />
+        <option value="$PROJECT_DIR$/day10/src/example/template/index.html" />
       </list>
     </option>
   </component>
@@ -113,8 +234,31 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="724" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralGo</id>
+          </State>
+          <State>
+            <id>Go</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>GoTypesCompatibility</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -134,8 +278,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -148,8 +290,104 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="go" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day10" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -160,22 +398,22 @@
     <property name="configurable.Module.GOPATH.is.expanded" value="false" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="FullScreen" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day07/src/work" />
+      <recent name="$PROJECT_DIR$/day07/src" />
       <recent name="$PROJECT_DIR$/day04/src/goweb" />
       <recent name="$PROJECT_DIR$/day03/src/goweb" />
       <recent name="$PROJECT_DIR$/library/src/github.com/go-xorm" />
-      <recent name="$PROJECT_DIR$/library/src/config" />
-      <recent name="$PROJECT_DIR$/day01/src/test/main" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/day07/src/work/eg1" />
+      <recent name="$PROJECT_DIR$/day07/src/work" />
+      <recent name="$PROJECT_DIR$/day06/src" />
       <recent name="$PROJECT_DIR$/day05/src/example" />
       <recent name="$PROJECT_DIR$/day05/src/example/example3" />
-      <recent name="$PROJECT_DIR$/day05/src/work" />
-      <recent name="$PROJECT_DIR$/day05/src/work/ssort" />
-      <recent name="$PROJECT_DIR$/day04/src/example/example16" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,35 +428,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Single File.go run main.go (2)">
-    <configuration default="false" name="go run main.go (4)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+  <component name="RunManager" selected="Go Single File.go run main.go (3)">
+    <configuration default="false" name="go run demo1.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day05/src/example/example1/main.go" />
+      <filePath value="$PROJECT_DIR$/day01/src/example1/demo1.go" />
       <method />
     </configuration>
     <configuration default="false" name="go run main.go" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day05/src/example/example4/main.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="go run main.go (5)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day05/src/example/example5/main.go" />
+      <filePath value="$PROJECT_DIR$/day10/src/example/example_1/main.go" />
       <method />
     </configuration>
     <configuration default="false" name="go run main.go (1)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day05/src/example/example6/main.go" />
+      <filePath value="$PROJECT_DIR$/day10/src/example/example_2/main.go" />
       <method />
     </configuration>
     <configuration default="false" name="go run main.go (2)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day05/src/example/example7/main.go" />
+      <filePath value="$PROJECT_DIR$/day10/src/example/example_3/main.go" />
+      <method />
+    </configuration>
+    <configuration default="false" name="go run main.go (3)" type="GoRunFileConfiguration" factoryName="Go Single File" temporary="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/day10/src/example/template/main.go" />
       <method />
     </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -275,112 +513,31 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Build main.go and run" type="GoApplicationRunConfiguration" factoryName="Go Application">
+    <configuration default="false" name="day07" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <output_file path="$PROJECT_DIR$/day07/bin" />
       <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <filePath value="$PROJECT_DIR$/day05/src/example/example2/main.go" />
-      <kind value="FILE" />
-      <method />
-    </configuration>
-    <configuration default="false" name="day01" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <output_file path="$PROJECT_DIR$/day01/bin" />
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$/day01/src" />
+      <working_directory value="$PROJECT_DIR$/day07/src" />
       <go_parameters value="-i" />
       <filePath value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="example1" />
+      <package value="work/eg1/main" />
       <method />
     </configuration>
-    <configuration default="false" name="day02" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <output_file path="$PROJECT_DIR$/day02/bin" />
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$/day02/src" />
-      <go_parameters value="-i" />
-      <filePath value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="example2/main" />
-      <method />
-    </configuration>
-    <configuration default="false" name="go run demo1.go" type="GoRunFileConfiguration" factoryName="Go Single File">
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/day02/src/demo/demo1.go" />
-      <method />
-    </configuration>
-    <configuration default="false" name="day04" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <output_file path="$PROJECT_DIR$/day04/bin" />
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$/day04/src" />
-      <go_parameters value="-i" />
-      <filePath value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="eg6" />
-      <method />
-    </configuration>
-    <configuration default="false" name="library" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <output_file path="$PROJECT_DIR$/library/bin" />
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$/library/src" />
-      <go_parameters value="-i" />
-      <filePath value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="xormDemo" />
-      <method />
-    </configuration>
-    <configuration default="false" name="day03" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <output_file path="$PROJECT_DIR$/day03/bin" />
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$/day03/src" />
-      <go_parameters value="-i" />
-      <filePath value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="example/example13" />
-      <method />
-    </configuration>
-    <configuration default="false" name="beego" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <output_file path="$PROJECT_DIR$/framework/bin" />
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$/framework/src" />
-      <go_parameters value="-i" />
-      <filePath value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="hello" />
-      <method />
-    </configuration>
-    <configuration default="false" name="day05" type="GoApplicationRunConfiguration" factoryName="Go Application">
-      <output_file path="$PROJECT_DIR$/day05/bin" />
-      <module name="go" />
-      <working_directory value="$PROJECT_DIR$/day05/src" />
-      <go_parameters value="-i" />
-      <filePath value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <method />
-    </configuration>
-    <list size="14">
-      <item index="0" class="java.lang.String" itemvalue="Go Application.Build main.go and run" />
-      <item index="1" class="java.lang.String" itemvalue="Go Application.day01" />
-      <item index="2" class="java.lang.String" itemvalue="Go Application.day02" />
-      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run demo1.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Application.day04" />
-      <item index="5" class="java.lang.String" itemvalue="Go Application.library" />
-      <item index="6" class="java.lang.String" itemvalue="Go Application.day03" />
-      <item index="7" class="java.lang.String" itemvalue="Go Application.beego" />
-      <item index="8" class="java.lang.String" itemvalue="Go Application.day05" />
-      <item index="9" class="java.lang.String" itemvalue="Go Single File.go run main.go (4)" />
-      <item index="10" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
-      <item index="11" class="java.lang.String" itemvalue="Go Single File.go run main.go (5)" />
-      <item index="12" class="java.lang.String" itemvalue="Go Single File.go run main.go (1)" />
-      <item index="13" class="java.lang.String" itemvalue="Go Single File.go run main.go (2)" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Go Application.day07" />
+      <item index="1" class="java.lang.String" itemvalue="Go Single File.go run demo1.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Single File.go run main.go (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Go Single File.go run main.go (2)" />
+      <item index="5" class="java.lang.String" itemvalue="Go Single File.go run main.go (3)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go (2)" />
-        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go (5)" />
+        <item index="0" class="java.lang.String" itemvalue="Go Single File.go run main.go (3)" />
+        <item index="1" class="java.lang.String" itemvalue="Go Single File.go run main.go (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Go Single File.go run main.go (1)" />
         <item index="3" class="java.lang.String" itemvalue="Go Single File.go run main.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run main.go (4)" />
+        <item index="4" class="java.lang.String" itemvalue="Go Single File.go run demo1.go" />
       </list>
     </recent_temporary>
   </component>
@@ -397,17 +554,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18336026" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20113085" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26988637" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34488449" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26420453" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43069306" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49353796" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16477273" sideWeight="0.49676898" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4247159" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40429044" sideWeight="0.49353796" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42329547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -415,27 +573,27 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32838285" sideWeight="0.4951535" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21448864" sideWeight="0.50646204" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29261363" sideWeight="0.49353796" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.171875" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19628432" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26988637" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35313532" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.49353796" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03960396" sideWeight="0.49676898" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1736672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4240924" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -452,389 +610,370 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day04/src/work/example4/main.go">
+    <entry file="file://$PROJECT_DIR$/day07/src/work/eg1/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="334">
+          <caret line="22" column="9" lean-forward="false" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/work/example3/main.go">
+    <entry file="file://$PROJECT_DIR$/day07/src/work/eg1/balance/mgr.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="285">
+          <caret line="28" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/work/example2/main.go">
+    <entry file="file://$PROJECT_DIR$/day07/src/example/example4/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="30" column="19" lean-forward="false" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="280">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/work/example1/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day03/src/example/example1/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/work/example5/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example3/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example2/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example4/main.go">
+    <entry file="file://$PROJECT_DIR$/day07/src/example/example2/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example5/main.go">
+    <entry file="file://$PROJECT_DIR$/day07/src/example/example3/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="240">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/Cellar/go/1.8.3/libexec/src/builtin/builtin.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="133" column="35" lean-forward="false" selection-start-line="133" selection-start-column="32" selection-end-line="133" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example6/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example7/main.go">
+    <entry file="file://$PROJECT_DIR$/day07/src/example/example1/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example8/main.go">
+    <entry file="file:///usr/local/Cellar/go/1.8.3/libexec/src/os/types.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+        <state relative-caret-position="169">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example9/main.go">
+    <entry file="file:///usr/local/Cellar/go/1.8.3/libexec/src/os/file.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="23" column="22" lean-forward="false" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        <state relative-caret-position="169">
+          <caret line="245" column="27" lean-forward="false" selection-start-line="245" selection-start-column="27" selection-end-line="245" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example10/main.go">
+    <entry file="file://$PROJECT_DIR$/day07/src/example/example5/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/src/example/example6/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/src/example/example7/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/src/example/example9/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="46" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07/src/example/example8/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/src/goroutine_lock/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="33" column="29" lean-forward="true" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/src/goroutine/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example11/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="21" column="28" lean-forward="false" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example12/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example13/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example14/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example16/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example15/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/hello/routers/router.go">
+    <entry file="file://$PROJECT_DIR$/day01/src/test/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="29" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/hello/main.go">
+    <entry file="file://$PROJECT_DIR$/day08/src/goroutine_channel/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/src/channel/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="43" column="8" lean-forward="true" selection-start-line="43" selection-start-column="8" selection-end-line="52" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/src/ticker/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/src/ticker_1/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/src/timeout/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/src/test/main.go" />
+    <entry file="file://$PROJECT_DIR$/day08/src/channel_close/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="25" lean-forward="true" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/src/test/cal_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08/src/test/cal.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/src/hello/controllers/default.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="25" />
+        <state relative-caret-position="280">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/github.com/beego/bee/bee.json">
+    <entry file="file://$PROJECT_DIR$/framework/src/hello/routers/router.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/hello/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="15" lean-forward="false" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/src/github.com/astaxie/beego/app.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="204" column="66" lean-forward="false" selection-start-line="204" selection-start-column="52" selection-end-line="204" selection-end-column="66" />
+        <state relative-caret-position="133">
+          <caret line="270" column="0" lean-forward="false" selection-start-line="270" selection-start-column="0" selection-end-line="272" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/fund/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/Cellar/go/1.8.3/libexec/src/errors/errors.go">
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/admin/UserController.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="27" />
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day04/src/example/example1/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/github.com/astaxie/beego/config/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/github.com/astaxie/beego/config.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="376" column="31" lean-forward="false" selection-start-line="376" selection-start-column="31" selection-end-line="376" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/fund/controllers/default.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/github.com/astaxie/beego/context/output.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1710">
-          <caret line="61" column="27" lean-forward="false" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/fund/conf/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/fund/routers/router.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="56" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework/src/fund/controllers/user.go">
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/controllers/RController.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/work/bsort/main.go">
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/controllers/ObjectController.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="220">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/work/ssort/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/work/qsort/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/work/isort/main.go">
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/views/index.tpl" />
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/views/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#14#26#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/example/example1/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="25" column="56" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="56" />
-          <folding>
-            <element signature="e#14#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/example/example2/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="951">
-          <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="20" />
-          <folding>
-            <element signature="e#14#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/example/example3/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="24" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="28" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/example/example4/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="e#14#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/example/example5/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="e#14#48#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/example/example6/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="22" lean-forward="false" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/example/example7/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="e#14#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/example/example8/main.go">
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/routers/commentsRouter_controllers.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day01/src/example1/demo1.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding>
+            <element signature="e#14#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/controllers/default.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/controllers/CMSController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/views/form1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/models/Student.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+          <folding>
+            <element signature="e#16#28#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/example/example9/main.go">
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/routers/router.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day05/src/example/example10/main.go">
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/controllers/ParamController.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="281">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#21#93#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10/src/example/example_1/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="18" lean-forward="true" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10/src/example/example_2/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="17" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="e#14#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10/src/example/example_3/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-123">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.8.3/libexec/src/html/template/template.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="115" column="61" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/gohah/controllers/UserController.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10/src/example/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10/src/example/template/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#14#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

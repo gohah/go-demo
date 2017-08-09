@@ -11,7 +11,7 @@ type Student struct {
 	Score float32
 	next  *Student
 }
-
+//遍历节点
 func trans(p *Student) {
 	for p != nil {
 		fmt.Println(*p)
@@ -20,7 +20,7 @@ func trans(p *Student) {
 
 	fmt.Println()
 }
-
+//从尾部插入
 func insertTail(p *Student) {
 	var tail = p
 	for i := 0; i < 10; i++ {
@@ -34,7 +34,7 @@ func insertTail(p *Student) {
 		tail = &stu
 	}
 }
-
+//从头部插入
 func insertHead(p **Student) {
 	//var tail = p
 	for i := 0; i < 10; i++ {
@@ -48,7 +48,7 @@ func insertHead(p **Student) {
 		*p = &stu
 	}
 }
-
+//删除节点
 func delNode(p *Student) {
 
 	var prev *Student = p
@@ -61,7 +61,7 @@ func delNode(p *Student) {
 		p = p.next
 	}
 }
-
+//添加节点
 func addNode(p *Student, newNode *Student) {
 
 	for p != nil {
