@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-glide up
-GOOS=linux GOARCH=amd64 go build -o ./bin/LogCollect  go_dev/day11/logagent/main
-
