@@ -1,0 +1,5 @@
+*.prof
+*.log
+pkg
+third_party/src
+offset/*
