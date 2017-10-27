@@ -1,0 +1,116 @@
+<!-- BEGIN PAGE CONTAINER-->
+
+<div class="container-fluid">
+
+<!-- BEGIN PAGE HEADER-->
+
+<div class="row-fluid">
+
+    <div class="span12">
+
+                <ul class="breadcrumb">
+
+            <li>
+
+                <i class="icon-home"></i>
+
+                <a href="/product/list">首页</a> 
+
+                <i class="icon-angle-right"></i>
+
+            </li>
+
+            <li>
+
+                <a href="#"> 商品管理</a>
+
+                <i class="icon-angle-right"></i>
+
+            </li>
+
+            <li><a href="#">商品列表</a></li>
+
+        </ul>
+
+        <!-- END PAGE TITLE & BREADCRUMB-->
+
+    </div>
+
+</div>
+
+<!-- END PAGE HEADER-->
+
+<!-- BEGIN PAGE CONTENT-->
+
+<div class="row-fluid">
+
+    <div class="span12">
+
+        <!-- BEGIN SAMPLE TABLE PORTLET-->
+
+        <div class="portlet box red">
+
+            <div class="portlet-title">
+
+                <div class="caption"><i class="icon-cogs"></i>所有商品</div>
+
+            </div>
+
+            <div class="portlet-body">
+
+                <table class="table table-hover">
+
+                    <thead>
+
+                        <tr>
+
+                            <th>商品id</th>
+
+                            <th>商品名字</th>
+
+                            <th class="hidden-480">库存</th>
+
+                            <th>商品状态</th>
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        {{range .product_list}}
+                        <tr>
+                                <td>{{.ProductId}}</td>
+
+                                <td>{{.ProductName}}</td>
+
+                                <td>{{.Total}}</td>
+
+                                <td class="hidden-480">{{.Status}}</td>
+
+                        </tr>
+
+                        {{end}}
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+        <!-- END SAMPLE TABLE PORTLET-->
+
+    </div>
+
+
+    </div>
+
+</div>
+
+<!-- END PAGE CONTENT-->
+
+</div>
+
+<!-- END PAGE CONTAINER--> 
+

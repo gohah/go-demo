@@ -1,0 +1,203 @@
+2017/09/23 10:49:28 [I] service run exited
+2017/09/23 10:49:30 [I] service run exited
+2017/09/23 10:49:31 [I] service run exited
+2017/09/23 10:50:38 [D] init logger succ
+2017/09/23 10:50:38 [D] init sec layer succ
+2017/09/23 10:50:38 [I] service run exited
+2017/09/23 16:23:05 [D] init logger succ
+2017/09/23 16:24:38 [D] init logger succ
+2017/09/23 16:24:44 [D] init logger succ
+2017/09/23 16:24:45 [E] ping redis failed, err:dial tcp 192.168.14.200:6379: connectex: No connection could be made because the target machine actively refused it.
+2017/09/23 16:24:45 [E] init proxy2layer redis pool failed, err:dial tcp 192.168.14.200:6379: connectex: No connection could be made because the target machine actively refused it.
+2017/09/23 16:24:45 [E] init redis failed, err:dial tcp 192.168.14.200:6379: connectex: No connection could be made because the target machine actively refused it.
+2017/09/23 16:24:45 [E] init sec kill failed, err:dial tcp 192.168.14.200:6379: connectex: No connection could be made because the target machine actively refused it.
+2017/09/23 16:25:49 [D] init logger succ
+2017/09/23 16:27:41 [D] init logger succ
+2017/09/23 16:28:57 [D] init logger succ
+2017/09/23 16:28:57 [D] init redis succ
+2017/09/23 16:28:57 [D] init etcd succ
+2017/09/23 16:30:26 [D] init logger succ
+2017/09/23 16:30:26 [D] init redis succ
+2017/09/23 16:30:26 [D] init etcd succ
+2017/09/23 16:31:06 [D] init logger succ
+2017/09/23 16:31:06 [D] init redis succ
+2017/09/23 16:31:06 [D] init etcd succ
+2017/09/23 16:31:06 [D] start get from etcd succ
+2017/09/23 16:32:47 [D] init logger succ
+2017/09/23 16:32:47 [D] init redis succ
+2017/09/23 16:32:47 [D] init etcd succ
+2017/09/23 16:32:47 [D] start get from etcd succ
+2017/09/23 16:32:57 [E] get [] from etcd failed, err:context deadline exceeded
+2017/09/23 16:32:57 [E] load product from etcd failed, err:context deadline exceeded
+2017/09/23 16:32:57 [E] init sec kill failed, err:context deadline exceeded
+2017/09/23 16:34:29 [D] init logger succ
+2017/09/23 16:34:29 [D] init redis succ
+2017/09/23 16:34:29 [D] init etcd succ
+2017/09/23 16:34:29 [D] start get from etcd succ
+2017/09/23 16:34:39 [E] get [] from etcd failed, err:context deadline exceeded
+2017/09/23 16:34:39 [E] load product from etcd failed, err:context deadline exceeded
+2017/09/23 16:34:39 [E] init sec kill failed, err:context deadline exceeded
+2017/09/23 16:36:42 [D] [proc.go:185] init logger succ
+2017/09/23 16:36:42 [D] [main.go:27] init redis succ
+2017/09/23 16:36:42 [D] [main.go:27] init etcd succ
+2017/09/23 16:36:42 [D] [init.go:40] start get from etcd succ
+2017/09/23 16:36:52 [E] [init.go:40] get [] from etcd failed, err:context deadline exceeded
+2017/09/23 16:36:52 [E] [main.go:27] load product from etcd failed, err:context deadline exceeded
+2017/09/23 16:36:52 [E] [proc.go:185] init sec kill failed, err:context deadline exceeded
+2017/09/23 16:44:53 [D] [proc.go:185] init logger succ
+2017/09/23 16:44:53 [D] [main.go:28] init redis succ
+2017/09/23 16:44:53 [D] [init.go:34] init etcd succ
+2017/09/23 16:44:53 [D] [main.go:28] init etcd succ
+2017/09/23 16:44:53 [D] [init.go:41] start get from etcd succ
+2017/09/23 16:44:53 [D] [init.go:41] get from etcd succ, resp:&{cluster_id:14841639068965178418 member_id:10276657743932975437 revision:5 raft_term:5  [key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ] false 1}
+2017/09/23 16:44:53 [D] [init.go:41] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/23 16:44:53 [D] [init.go:41] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>}]]
+2017/09/23 16:44:53 [D] [init.go:41] update product info succ, data:[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>}]
+2017/09/23 16:44:53 [D] [init.go:41] init etcd watcher succ
+2017/09/23 16:44:53 [D] [main.go:28] load product succ
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/23 16:44:53 [D] [main.go:28] init all succ
+2017/09/23 16:44:53 [D] [proc.go:185] init sec layer succ
+2017/09/23 16:44:53 [D] [service.go:6] all process goroutine started
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:44:53 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [proc.go:185] init logger succ
+2017/09/23 16:46:44 [D] [main.go:28] init redis succ
+2017/09/23 16:46:44 [D] [init.go:34] init etcd succ
+2017/09/23 16:46:44 [D] [main.go:28] init etcd succ
+2017/09/23 16:46:44 [D] [init.go:41] start get from etcd succ
+2017/09/23 16:46:44 [D] [init.go:41] get from etcd succ, resp:&{cluster_id:14841639068965178418 member_id:10276657743932975437 revision:5 raft_term:5  [key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ] false 1}
+2017/09/23 16:46:44 [D] [init.go:41] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/23 16:46:44 [D] [init.go:41] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>}]]
+2017/09/23 16:46:44 [D] [init.go:41] update product info succ, data:[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>}]
+2017/09/23 16:46:44 [D] [init.go:41] init etcd watcher succ
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/23 16:46:44 [D] [main.go:28] load product succ
+2017/09/23 16:46:44 [D] [main.go:28] init all succ
+2017/09/23 16:46:44 [D] [proc.go:185] init sec layer succ
+2017/09/23 16:46:44 [D] [service.go:6] all process goroutine started
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:44 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [proc.go:185] init logger succ
+2017/09/23 16:46:50 [D] [main.go:28] init redis succ
+2017/09/23 16:46:50 [D] [init.go:34] init etcd succ
+2017/09/23 16:46:50 [D] [main.go:28] init etcd succ
+2017/09/23 16:46:50 [D] [init.go:41] start get from etcd succ
+2017/09/23 16:46:50 [D] [init.go:41] get from etcd succ, resp:&{cluster_id:14841639068965178418 member_id:10276657743932975437 revision:5 raft_term:5  [key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ] false 1}
+2017/09/23 16:46:50 [D] [init.go:41] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/23 16:46:50 [D] [init.go:41] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>}]]
+2017/09/23 16:46:50 [D] [init.go:41] update product info succ, data:[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>}]
+2017/09/23 16:46:50 [D] [init.go:41] init etcd watcher succ
+2017/09/23 16:46:50 [D] [main.go:28] load product succ
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/23 16:46:50 [D] [main.go:28] init all succ
+2017/09/23 16:46:50 [D] [proc.go:185] init sec layer succ
+2017/09/23 16:46:50 [D] [service.go:6] all process goroutine started
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle user running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] read goroutine running
+2017/09/23 16:46:50 [D] [asm_amd64.s:2197] handle write running

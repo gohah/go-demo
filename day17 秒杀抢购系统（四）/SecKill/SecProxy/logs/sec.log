@@ -1,0 +1,292 @@
+2017/09/16 10:29:04 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 10:29:04 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 10:29:04 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1029:0xc04200c930 1027:0xc04200c930] {{0 0} 0 0 0 0}}
+2017/09/16 10:29:04 [I] [main.go:17] init sec succ
+2017/09/16 10:29:04 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 10:29:05 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 10:30:04 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 10:30:04 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 10:30:04 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1029:0xc0421e82d0 1027:0xc0421e82d0] {{0 0} 0 0 0 0}}
+2017/09/16 10:30:04 [I] [main.go:17] init sec succ
+2017/09/16 10:30:04 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 10:30:05 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 10:30:23 [D] [skill.go:33] get product[1027]， result[map[status:sec kill is already end product_id:1027 start:false end:true]], all[map[1027:0xc0421e82d0 1029:0xc0421e82d0]]
+2017/09/16 10:30:23 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc0421e82d0 1029:0xc0421e82d0]]
+2017/09/16 10:30:32 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1029:0xc0421e82d0 1027:0xc0421e82d0]]
+2017/09/16 10:30:32 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc0421e82d0 1029:0xc0421e82d0]]
+2017/09/16 10:30:32 [D] [skill.go:33] get product[1027]， result[map[status:sec kill is already end product_id:1027 start:false end:true]], all[map[1027:0xc0421e82d0 1029:0xc0421e82d0]]
+2017/09/16 10:30:32 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1029:0xc0421e82d0 1027:0xc0421e82d0]]
+2017/09/16 10:31:39 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 10:31:39 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 10:31:39 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1027:0xc04217b050 1029:0xc04217b050] {{0 0} 0 0 0 0}}
+2017/09/16 10:31:39 [I] [main.go:17] init sec succ
+2017/09/16 10:31:39 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 10:31:40 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 10:31:42 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04217b050 1029:0xc04217b050]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:31:42 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04217b050 1029:0xc04217b050]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:31:43 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1029:0xc04217b050 1027:0xc04217b050]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:31:43 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04217b050 1029:0xc04217b050]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:31:43 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04217b050 1029:0xc04217b050]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:31:43 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1029:0xc04217b050 1027:0xc04217b050]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:31:43 [D] [skill.go:33] get product[1027]， result[map[status:sec kill is already end product_id:1027 start:false end:true]], all[map[1027:0xc04217b050 1029:0xc04217b050]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:31:43 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04217b050 1029:0xc04217b050]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:12 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 10:37:12 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 10:37:12 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1027:0xc04219b500 1029:0xc04219b4d0] {{0 0} 0 0 0 0}}
+2017/09/16 10:37:12 [I] [main.go:17] init sec succ
+2017/09/16 10:37:12 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 10:37:13 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 10:37:14 [D] [skill.go:33] get product[1027]， result[map[status:sec kill is already end product_id:1027 start:false end:true]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:14 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1029:0xc04219b4d0 1027:0xc04219b500]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:15 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:15 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:15 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:15 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:15 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:15 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:16 [D] [skill.go:33] get product[1027]， result[map[end:true status:sec kill is already end product_id:1027 start:false]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:16 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1029:0xc04219b4d0 1027:0xc04219b500]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:16 [D] [skill.go:33] get product[1027]， result[map[status:sec kill is already end product_id:1027 start:false end:true]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:16 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1029:0xc04219b4d0 1027:0xc04219b500]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:16 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:16 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1029:0xc04219b4d0 1027:0xc04219b500]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:16 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:16 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:17 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:17 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:17 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:17 [D] [skill.go:33] get product[1027]， result[map[status:sec kill is already end product_id:1027 start:false end:true]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:17 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:17 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:17 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:17 [D] [skill.go:33] get product[1029]， result[map[status:sec kill is already end product_id:1029 start:false end:true]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:18 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:18 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1029:0xc04219b4d0 1027:0xc04219b500]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:18 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:18 [D] [skill.go:33] get product[1029]， result[map[start:false end:true status:sec kill is already end product_id:1029]], all[map[1029:0xc04219b4d0 1027:0xc04219b500]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:18 [D] [skill.go:33] get product[1027]， result[map[start:false end:true status:sec kill is already end product_id:1027]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:18 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:18 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:18 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1029:0xc04219b4d0 1027:0xc04219b500]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:18 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:18 [D] [skill.go:33] get product[1027]， result[map[product_id:1027 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:28 [D] [skill.go:33] get product[1027]， result[map[start:false end:true status:sec kill is already end product_id:1027]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:28 [D] [skill.go:33] get product[1029]， result[map[product_id:1029 start:false end:true status:sec kill is already end]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 10:37:28 [D] [skill.go:33] get product[1027]， result[map[start:false end:true status:sec kill is already end product_id:1027]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1027 1505008800 1505012400 0 2000 1000}]
+2017/09/16 10:37:28 [D] [skill.go:33] get product[1029]， result[map[status:sec kill is already end product_id:1029 start:false end:true]], all[map[1027:0xc04219b500 1029:0xc04219b4d0]] v[&{1029 1505008800 1505012400 0 1000 1000}]
+2017/09/16 11:25:24 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 11:25:24 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 11:25:24 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1029:0xc0421fe450 1027:0xc0421fe480] {{0 0} 0 0 0 0}}
+2017/09/16 11:25:24 [I] [main.go:17] init sec succ
+2017/09/16 11:25:24 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 11:25:25 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 11:45:59 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 11:45:59 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 11:45:59 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1027:0xc04221a300 1029:0xc04221a2d0] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP}
+2017/09/16 11:45:59 [I] [main.go:17] init sec succ
+2017/09/16 11:45:59 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 11:46:00 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 11:46:06 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:06 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:07 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:13 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:13 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:13 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:14 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:14 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:14 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:14 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:15 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:15 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:15 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:16 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:16 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:26 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 11:46:26 [W] [skill.go:47] userId[%!d(string=)] invalid, check failed, req[&{1028      }]
+2017/09/16 12:09:41 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 12:09:41 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 12:09:41 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1029:0xc0422442d0 1027:0xc042244300] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP 1}
+2017/09/16 12:09:41 [I] [main.go:17] init sec succ
+2017/09/16 12:09:42 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 12:09:42 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 12:10:30 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 12:10:30 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 12:10:30 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1029:0xc04200c4e0 1027:0xc04200c510] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP 1}
+2017/09/16 12:10:30 [I] [main.go:17] init sec succ
+2017/09/16 12:10:30 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 12:10:31 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 12:10:53 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 12:10:53 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 12:10:53 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1029:0xc04223e2d0 1027:0xc04223e300] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP 1}
+2017/09/16 12:10:53 [I] [main.go:17] init sec succ
+2017/09/16 12:10:53 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 12:10:54 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 12:11:22 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 12:11:22 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 12:11:22 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1027:0xc042250300 1029:0xc0422502d0] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP 1}
+2017/09/16 12:11:22 [I] [main.go:17] init sec succ
+2017/09/16 12:11:22 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 12:11:23 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 12:12:06 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 12:12:06 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 12:12:06 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1027:0xc0422582d0 1029:0xc0422582a0] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP 1}
+2017/09/16 12:12:06 [I] [main.go:17] init sec succ
+2017/09/16 12:12:06 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 12:12:07 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 12:12:10 [W] [skill.go:57] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 12:12:10.3222027 +0800 CST}]
+2017/09/16 12:12:10 [W] [skill.go:57] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 12:12:10.5222142 +0800 CST}]
+2017/09/16 12:12:10 [W] [skill.go:57] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 12:12:10.9362378 +0800 CST}]
+2017/09/16 12:12:11 [W] [skill.go:57] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 12:12:11.2662567 +0800 CST}]
+2017/09/16 12:12:11 [W] [skill.go:57] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 12:12:11.744284 +0800 CST}]
+2017/09/16 12:12:11 [W] [skill.go:57] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 12:12:11.9432954 +0800 CST}]
+2017/09/16 12:12:12 [W] [skill.go:57] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 12:12:12.2893152 +0800 CST}]
+2017/09/16 12:12:12 [W] [skill.go:57] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 12:12:12.7763431 +0800 CST}]
+2017/09/16 12:12:19 [W] [skill.go:57] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 12:12:19.8847497 +0800 CST}]
+2017/09/16 14:13:01 [D] [init.go:133] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 14:13:01 [D] [init.go:133] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 14:13:01 [D] [init.go:139] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1029:0xc04223e330 1027:0xc04223e360] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP 1}
+2017/09/16 14:13:01 [I] [main.go:17] init sec succ
+2017/09/16 14:13:01 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 14:13:02 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 14:13:06 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 14:13:06.2432177 +0800 CST [::1]:13209}]
+2017/09/16 15:40:40 [D] [init.go:134] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 15:40:40 [D] [init.go:134] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 15:40:41 [E] [service.go:58] ping redis failed, err:dial tcp 192.168.14.200:6379: connectex: No connection could be made because the target machine actively refused it.
+2017/09/16 15:40:41 [E] [service.go:22] init black redis failed, err:dial tcp 192.168.14.200:6379: connectex: No connection could be made because the target machine actively refused it.
+2017/09/16 15:40:41 [D] [init.go:140] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1029:0xc0422022d0 1027:0xc042202300] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc04221e180 <nil>}
+2017/09/16 15:40:41 [I] [main.go:17] init sec succ
+2017/09/16 15:40:41 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 15:40:42 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 15:40:47 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:40:47.1861264 +0800 CST [ }]
+2017/09/16 15:40:47 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:40:47.4091391 +0800 CST [ }]
+2017/09/16 15:40:47 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:40:47.5881494 +0800 CST [ }]
+2017/09/16 15:40:47 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:40:47.7081562 +0800 CST [ }]
+2017/09/16 15:40:47 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:40:47.8601649 +0800 CST [ }]
+2017/09/16 15:40:48 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:40:48.0051732 +0800 CST [ }]
+2017/09/16 15:40:48 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:40:48.1561819 +0800 CST [ }]
+2017/09/16 15:40:48 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:40:48.29919 +0800 CST [ }]
+2017/09/16 15:40:48 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:40:48.4872008 +0800 CST [ }]
+2017/09/16 15:40:48 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:40:48.7032131 +0800 CST [ }]
+2017/09/16 15:42:08 [D] [init.go:134] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:5 version:2 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000}]" ]
+2017/09/16 15:42:08 [D] [init.go:134] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000} {1027 1505008800 1505012400 0 2000 1000}]]
+2017/09/16 15:42:09 [E] [service.go:58] ping redis failed, err:dial tcp 192.168.14.200:6379: connectex: No connection could be made because the target machine actively refused it.
+2017/09/16 15:42:09 [E] [service.go:22] init black redis failed, err:dial tcp 192.168.14.200:6379: connectex: No connection could be made because the target machine actively refused it.
+2017/09/16 15:42:09 [D] [init.go:140] init service succ, config:&{{192.168.14.200:6379 64 0 300} {127.0.0.1:2379 5 /oldboy/backend/secskill/ /oldboy/backend/secskill/product} ./logs/sec.log debug map[1029:0xc0421fc300 1027:0xc0421fc330] {{0 0} 0 0 0 0} tyP87zZKzITuzaUjhmbqhNIDnyg6f2KP [localhost baidu.com qq.com/secskill] map[] map[] {50 1 500 10} 0xc04222e180 <nil>}
+2017/09/16 15:42:09 [I] [main.go:17] init sec succ
+2017/09/16 15:42:09 [I] [asm_amd64.s:2197] http server Running on http://0.0.0.0:9091
+2017/09/16 15:42:10 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/09/16 15:42:11 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:11.4949486 +0800 CST [ }]
+2017/09/16 15:42:12 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:12.6120125 +0800 CST [ }]
+2017/09/16 15:42:13 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:13.2800507 +0800 CST [ }]
+2017/09/16 15:42:13 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:13.9840909 +0800 CST [ }]
+2017/09/16 15:42:13 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:13.9840909 +0800 CST [ }]
+2017/09/16 15:42:16 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:16.922259 +0800 CST [ }]
+2017/09/16 15:42:17 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:17.6092983 +0800 CST [ }]
+2017/09/16 15:42:18 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:18.1413287 +0800 CST [ }]
+2017/09/16 15:42:18 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:18.5963547 +0800 CST [ }]
+2017/09/16 15:42:18 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:18.5963547 +0800 CST [ }]
+2017/09/16 15:42:21 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:21.171502 +0800 CST [ }]
+2017/09/16 15:42:21 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:21.9105443 +0800 CST [ }]
+2017/09/16 15:42:21 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:21.9105443 +0800 CST [ }]
+2017/09/16 15:42:22 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:22.9696049 +0800 CST [ }]
+2017/09/16 15:42:22 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:22.9696049 +0800 CST [ }]
+2017/09/16 15:42:23 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:23.6976465 +0800 CST [ }]
+2017/09/16 15:42:23 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:23.6976465 +0800 CST [ }]
+2017/09/16 15:42:24 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:24.2456779 +0800 CST [ }]
+2017/09/16 15:42:24 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:24.2456779 +0800 CST [ }]
+2017/09/16 15:42:24 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:24.5346944 +0800 CST [ }]
+2017/09/16 15:42:24 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:24.5346944 +0800 CST [ }]
+2017/09/16 15:42:24 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:24.7137046 +0800 CST [ }]
+2017/09/16 15:42:24 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:24.7137046 +0800 CST [ }]
+2017/09/16 15:42:24 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:24.8837144 +0800 CST [ }]
+2017/09/16 15:42:24 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:24.8837144 +0800 CST [ }]
+2017/09/16 15:42:25 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:25.0337229 +0800 CST [ }]
+2017/09/16 15:42:25 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:25.0337229 +0800 CST [ }]
+2017/09/16 15:42:25 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:25.1787312 +0800 CST [ }]
+2017/09/16 15:42:25 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:25.1787312 +0800 CST [ }]
+2017/09/16 15:42:25 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:25.3347402 +0800 CST [ }]
+2017/09/16 15:42:25 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:25.3347402 +0800 CST [ }]
+2017/09/16 15:42:34 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:34.6712742 +0800 CST [ }]
+2017/09/16 15:42:34 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:34.6712742 +0800 CST [ }]
+2017/09/16 15:42:36 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:36.294367 +0800 CST [ }]
+2017/09/16 15:42:36 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:36.294367 +0800 CST [ }]
+2017/09/16 15:42:37 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:37.0644111 +0800 CST [ }]
+2017/09/16 15:42:37 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:37.0644111 +0800 CST [ }]
+2017/09/16 15:42:37 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:37.8654569 +0800 CST [ }]
+2017/09/16 15:42:37 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:37.8654569 +0800 CST [ }]
+2017/09/16 15:42:42 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:42.098699 +0800 CST [ }]
+2017/09/16 15:42:42 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:42.098699 +0800 CST [ }]
+2017/09/16 15:42:42 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:42.377715 +0800 CST [ }]
+2017/09/16 15:42:42 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:42.377715 +0800 CST [ }]
+2017/09/16 15:42:42 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:42.5917272 +0800 CST [ }]
+2017/09/16 15:42:42 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:42.5917272 +0800 CST [ }]
+2017/09/16 15:42:42 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:42.763737 +0800 CST [ }]
+2017/09/16 15:42:42 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:42.763737 +0800 CST [ }]
+2017/09/16 15:42:42 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:42.9457474 +0800 CST [ }]
+2017/09/16 15:42:42 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:42.9457474 +0800 CST [ }]
+2017/09/16 15:42:43 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:43.1037565 +0800 CST [ }]
+2017/09/16 15:42:43 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:43.1037565 +0800 CST [ }]
+2017/09/16 15:42:43 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:43.2837668 +0800 CST [ }]
+2017/09/16 15:42:43 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:43.2837668 +0800 CST [ }]
+2017/09/16 15:42:43 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:43.4387756 +0800 CST [ }]
+2017/09/16 15:42:43 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:43.4387756 +0800 CST [ }]
+2017/09/16 15:42:43 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:43.6057852 +0800 CST [ }]
+2017/09/16 15:42:43 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:43.6057852 +0800 CST [ }]
+2017/09/16 15:42:43 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:43.7907958 +0800 CST [ }]
+2017/09/16 15:42:43 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:43.7907958 +0800 CST [ }]
+2017/09/16 15:42:43 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:43.9728062 +0800 CST [ }]
+2017/09/16 15:42:43 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:43.9728062 +0800 CST [ }]
+2017/09/16 15:42:44 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:44.1778179 +0800 CST [ }]
+2017/09/16 15:42:44 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:44.1778179 +0800 CST [ }]
+2017/09/16 15:42:44 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:44.3838297 +0800 CST [ }]
+2017/09/16 15:42:44 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:44.3838297 +0800 CST [ }]
+2017/09/16 15:42:45 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:45.2228777 +0800 CST [ }]
+2017/09/16 15:42:45 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:45.2228777 +0800 CST [ }]
+2017/09/16 15:42:45 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:45.4698918 +0800 CST [ }]
+2017/09/16 15:42:45 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:45.4698918 +0800 CST [ }]
+2017/09/16 15:42:45 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:45.6499021 +0800 CST [ }]
+2017/09/16 15:42:45 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:45.6499021 +0800 CST [ }]
+2017/09/16 15:42:45 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:45.8339126 +0800 CST [ }]
+2017/09/16 15:42:45 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:45.8339126 +0800 CST [ }]
+2017/09/16 15:42:46 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:46.1349299 +0800 CST [ }]
+2017/09/16 15:42:46 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:46.1349299 +0800 CST [ }]
+2017/09/16 15:42:46 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:46.3229406 +0800 CST [ }]
+2017/09/16 15:42:46 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:46.3229406 +0800 CST [ }]
+2017/09/16 15:42:46 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:46.4969506 +0800 CST [ }]
+2017/09/16 15:42:46 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:46.4969506 +0800 CST [ }]
+2017/09/16 15:42:56 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:56.9865505 +0800 CST [ }]
+2017/09/16 15:42:56 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:56.9865505 +0800 CST [ }]
+2017/09/16 15:42:57 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:57.6505885 +0800 CST [ }]
+2017/09/16 15:42:57 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:57.6505885 +0800 CST [ }]
+2017/09/16 15:42:58 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:58.0496113 +0800 CST [ }]
+2017/09/16 15:42:58 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:58.0496113 +0800 CST [ }]
+2017/09/16 15:42:58 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:58.2516229 +0800 CST [ }]
+2017/09/16 15:42:58 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:58.2516229 +0800 CST [ }]
+2017/09/16 15:42:58 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:58.5926424 +0800 CST [ }]
+2017/09/16 15:42:58 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:58.5926424 +0800 CST [ }]
+2017/09/16 15:42:58 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:58.7496514 +0800 CST [ }]
+2017/09/16 15:42:58 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:58.7496514 +0800 CST [ }]
+2017/09/16 15:42:58 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:58.9476627 +0800 CST [ }]
+2017/09/16 15:42:58 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:58.9476627 +0800 CST [ }]
+2017/09/16 15:42:59 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:59.1166724 +0800 CST [ }]
+2017/09/16 15:42:59 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:59.1166724 +0800 CST [ }]
+2017/09/16 15:42:59 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:59.284682 +0800 CST [ }]
+2017/09/16 15:42:59 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:59.284682 +0800 CST [ }]
+2017/09/16 15:42:59 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:59.460692 +0800 CST [ }]
+2017/09/16 15:42:59 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:59.460692 +0800 CST [ }]
+2017/09/16 15:42:59 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:59.6147009 +0800 CST [ }]
+2017/09/16 15:42:59 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:59.6147009 +0800 CST [ }]
+2017/09/16 15:42:59 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:59.7677096 +0800 CST [ }]
+2017/09/16 15:42:59 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:59.7677096 +0800 CST [ }]
+2017/09/16 15:42:59 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:42:59.9107178 +0800 CST [ }]
+2017/09/16 15:42:59 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:42:59.9107178 +0800 CST [ }]
+2017/09/16 15:43:00 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:43:00.0577262 +0800 CST [ }]
+2017/09/16 15:43:00 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:43:00.0577262 +0800 CST [ }]
+2017/09/16 15:43:00 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:43:00.2077348 +0800 CST [ }]
+2017/09/16 15:43:00 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:43:00.2077348 +0800 CST [ }]
+2017/09/16 15:43:00 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:43:00.3657438 +0800 CST [ }]
+2017/09/16 15:43:00 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:43:00.3657438 +0800 CST [ }]
+2017/09/16 15:43:00 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:43:00.5027517 +0800 CST [ }]
+2017/09/16 15:43:00 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:43:00.5027517 +0800 CST [ }]
+2017/09/16 15:43:00 [D] [asm_amd64.s:514] client request:[&{1028     0  2017-09-16 15:43:00.6577605 +0800 CST [ }]
+2017/09/16 15:43:00 [W] [skill.go:65] userId[0] invalid, check failed, req[&{1028     0  2017-09-16 15:43:00.6577605 +0800 CST [ }]

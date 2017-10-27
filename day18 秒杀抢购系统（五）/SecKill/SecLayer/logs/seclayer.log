@@ -1,0 +1,496 @@
+2017/10/21 11:49:48 [D] [proc.go:185] init logger succ
+2017/10/21 11:49:48 [D] [main.go:28] init redis succ
+2017/10/21 11:49:58 [E] [init.go:34] connect etcd failed, err: dial tcp 127.0.0.1:2379: connectex: No connection could be made because the target machine actively refused it.
+2017/10/21 11:49:58 [E] [main.go:28] init etcd failed, err:dial tcp 127.0.0.1:2379: connectex: No connection could be made because the target machine actively refused it.
+2017/10/21 11:49:58 [E] [proc.go:185] init sec kill failed, err:dial tcp 127.0.0.1:2379: connectex: No connection could be made because the target machine actively refused it.
+2017/10/21 11:50:40 [D] [proc.go:185] init logger succ
+2017/10/21 11:50:40 [D] [main.go:28] init redis succ
+2017/10/21 11:50:40 [D] [init.go:34] init etcd succ
+2017/10/21 11:50:40 [D] [main.go:28] init etcd succ
+2017/10/21 11:50:40 [D] [init.go:41] start get from etcd succ
+2017/10/21 11:50:40 [D] [init.go:41] get from etcd succ, resp:&{cluster_id:14841639068965178418 member_id:10276657743932975437 revision:7 raft_term:8  [key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:7 version:4 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50}]" ] false 1}
+2017/10/21 11:50:40 [D] [init.go:41] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:7 version:4 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50}]" ]
+2017/10/21 11:50:40 [D] [init.go:41] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>}]]
+2017/10/21 11:50:40 [D] [init.go:41] update product info succ, data:[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>}]
+2017/10/21 11:50:40 [D] [init.go:41] init etcd watcher succ
+2017/10/21 11:50:40 [D] [main.go:28] load product succ
+2017/10/21 11:50:40 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/10/21 11:50:40 [D] [main.go:28] init all succ
+2017/10/21 11:50:40 [D] [proc.go:185] init sec layer succ
+2017/10/21 11:50:40 [D] [service.go:6] all process goroutine started
+2017/10/21 11:50:40 [D] [asm_amd64.s:2197] handle user running
+2017/10/21 11:50:40 [D] [asm_amd64.s:2197] read goroutine running
+2017/10/21 11:50:40 [D] [asm_amd64.s:2197] handle write running
+2017/10/21 11:50:40 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:49:51.3415189+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:50:40 [W] [asm_amd64.s:2197] req[{2     1  2017-10-21 11:49:51.3415189 +0800 CST [ }] is expire
+2017/10/21 11:50:46 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:50:46.7536883+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:50:46 [D] [asm_amd64.s:2197] begin process request:&{2     1  2017-10-21 11:50:46.7536883 +0800 CST [ }
+2017/10/21 11:50:46 [D] [redis.go:164] curRate:0.6046602879796196 product:0
+2017/10/21 11:50:46 [W] [redis.go:133] rpush to redis failed, err:redigo: unexpected type for String, got type int64
+2017/10/21 11:50:46 [E] [asm_amd64.s:2197] send to redis, err:redigo: unexpected type for String, got type int64, res:&{0 0  0 1005}
+2017/10/21 11:52:37 [D] [proc.go:185] init logger succ
+2017/10/21 11:52:37 [D] [main.go:28] init redis succ
+2017/10/21 11:52:37 [D] [init.go:34] init etcd succ
+2017/10/21 11:52:37 [D] [main.go:28] init etcd succ
+2017/10/21 11:52:37 [D] [init.go:41] start get from etcd succ
+2017/10/21 11:52:37 [D] [init.go:41] get from etcd succ, resp:&{cluster_id:14841639068965178418 member_id:10276657743932975437 revision:7 raft_term:8  [key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:7 version:4 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50}]" ] false 1}
+2017/10/21 11:52:37 [D] [init.go:41] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:7 version:4 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50}]" ]
+2017/10/21 11:52:37 [D] [init.go:41] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>}]]
+2017/10/21 11:52:37 [D] [init.go:41] update product info succ, data:[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>}]
+2017/10/21 11:52:37 [D] [init.go:41] init etcd watcher succ
+2017/10/21 11:52:37 [D] [main.go:28] load product succ
+2017/10/21 11:52:37 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/10/21 11:52:37 [D] [main.go:28] init all succ
+2017/10/21 11:52:37 [D] [proc.go:185] init sec layer succ
+2017/10/21 11:52:37 [D] [service.go:6] all process goroutine started
+2017/10/21 11:52:37 [D] [asm_amd64.s:2197] handle user running
+2017/10/21 11:52:37 [D] [asm_amd64.s:2197] read goroutine running
+2017/10/21 11:52:37 [D] [asm_amd64.s:2197] handle write running
+2017/10/21 11:52:40 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:52:40.2671809+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:52:40 [D] [asm_amd64.s:2197] begin process request:&{2     1  2017-10-21 11:52:40.2671809 +0800 CST [ }
+2017/10/21 11:52:40 [D] [redis.go:164] curRate:0.6046602879796196 product:0
+2017/10/21 11:54:59 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:54:59.8321635+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:54:59 [D] [asm_amd64.s:2197] begin process request:&{2     1  2017-10-21 11:54:59.8321635 +0800 CST [ }
+2017/10/21 11:54:59 [D] [redis.go:164] curRate:0.9405090880450124 product:0
+2017/10/21 11:56:52 [D] [proc.go:185] init logger succ
+2017/10/21 11:56:52 [D] [main.go:28] init redis succ
+2017/10/21 11:56:52 [D] [init.go:34] init etcd succ
+2017/10/21 11:56:52 [D] [main.go:28] init etcd succ
+2017/10/21 11:56:52 [D] [init.go:41] start get from etcd succ
+2017/10/21 11:56:52 [D] [init.go:41] get from etcd succ, resp:&{cluster_id:14841639068965178418 member_id:10276657743932975437 revision:7 raft_term:8  [key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:7 version:4 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50}]" ] false 1}
+2017/10/21 11:56:52 [D] [init.go:41] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:7 version:4 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50}]" ]
+2017/10/21 11:56:52 [D] [init.go:41] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>}]]
+2017/10/21 11:56:52 [D] [init.go:41] update product info succ, data:[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>}]
+2017/10/21 11:56:52 [D] [init.go:41] init etcd watcher succ
+2017/10/21 11:56:52 [D] [main.go:28] load product succ
+2017/10/21 11:56:52 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/10/21 11:56:52 [D] [main.go:28] init all succ
+2017/10/21 11:56:52 [D] [proc.go:185] init sec layer succ
+2017/10/21 11:56:52 [D] [service.go:6] all process goroutine started
+2017/10/21 11:56:52 [D] [asm_amd64.s:2197] handle user running
+2017/10/21 11:56:52 [D] [asm_amd64.s:2197] read goroutine running
+2017/10/21 11:56:52 [D] [asm_amd64.s:2197] handle write running
+2017/10/21 11:56:55 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:56:55.4027738+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:56:55 [D] [asm_amd64.s:2197] begin process request:&{2     1  2017-10-21 11:56:55.4027738 +0800 CST [ }
+2017/10/21 11:56:55 [D] [redis.go:164] curRate:0.6046602879796196 product:0
+2017/10/21 11:57:01 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:57:01.9831502+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:57:01 [D] [asm_amd64.s:2197] begin process request:&{2     1  2017-10-21 11:57:01.9831502 +0800 CST [ }
+2017/10/21 11:57:01 [D] [redis.go:164] curRate:0.9405090880450124 product:0
+2017/10/21 11:57:04 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:57:04.6513028+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:57:04 [D] [asm_amd64.s:2197] begin process request:&{2     1  2017-10-21 11:57:04.6513028 +0800 CST [ }
+2017/10/21 11:57:04 [D] [redis.go:164] curRate:0.6645600532184904 product:0
+2017/10/21 11:57:48 [D] [proc.go:185] init logger succ
+2017/10/21 11:57:48 [D] [main.go:28] init redis succ
+2017/10/21 11:57:48 [D] [init.go:34] init etcd succ
+2017/10/21 11:57:48 [D] [main.go:28] init etcd succ
+2017/10/21 11:57:48 [D] [init.go:41] start get from etcd succ
+2017/10/21 11:57:48 [D] [init.go:41] get from etcd succ, resp:&{cluster_id:14841639068965178418 member_id:10276657743932975437 revision:7 raft_term:8  [key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:7 version:4 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50}]" ] false 1}
+2017/10/21 11:57:48 [D] [init.go:41] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:7 version:4 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50}]" ]
+2017/10/21 11:57:48 [D] [init.go:41] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>}]]
+2017/10/21 11:57:48 [D] [init.go:41] update product info succ, data:[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>}]
+2017/10/21 11:57:48 [D] [init.go:41] init etcd watcher succ
+2017/10/21 11:57:48 [D] [main.go:28] load product succ
+2017/10/21 11:57:48 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/10/21 11:57:48 [D] [main.go:28] init all succ
+2017/10/21 11:57:48 [D] [proc.go:185] init sec layer succ
+2017/10/21 11:57:48 [D] [service.go:6] all process goroutine started
+2017/10/21 11:57:48 [D] [asm_amd64.s:2197] handle user running
+2017/10/21 11:57:48 [D] [asm_amd64.s:2197] read goroutine running
+2017/10/21 11:57:48 [D] [asm_amd64.s:2197] handle write running
+2017/10/21 11:57:51 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:57:51.4219779+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:57:51 [D] [asm_amd64.s:2197] begin process request:&{2     1  2017-10-21 11:57:51.4219779 +0800 CST [ }
+2017/10/21 11:57:51 [D] [redis.go:164] curRate:0.6046602879796196 product:0
+2017/10/21 11:57:57 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:57:57.6003313+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:57:57 [D] [asm_amd64.s:2197] begin process request:&{2     1  2017-10-21 11:57:57.6003313 +0800 CST [ }
+2017/10/21 11:57:59 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:57:59.3694325+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:57:59 [D] [asm_amd64.s:2197] begin process request:&{2     1  2017-10-21 11:57:59.3694325 +0800 CST [ }
+2017/10/21 11:58:00 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:58:00.5004972+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:58:00 [D] [asm_amd64.s:2197] begin process request:&{2     1  2017-10-21 11:58:00.5004972 +0800 CST [ }
+2017/10/21 11:58:01 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":1,"UserAuthSign":"","AccessTime":"2017-10-21T11:58:01.703566+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:58:01 [D] [asm_amd64.s:2197] begin process request:&{2     1  2017-10-21 11:58:01.703566 +0800 CST [ }
+2017/10/21 11:58:27 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T11:58:27.6200483+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:58:27 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 11:58:27.6200483 +0800 CST [ }
+2017/10/21 11:58:27 [D] [redis.go:164] curRate:0.9405090880450124 product:0
+2017/10/21 11:58:36 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T11:58:36.8735776+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:58:36 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 11:58:36.8735776 +0800 CST [ }
+2017/10/21 11:58:36 [D] [redis.go:164] curRate:0.6645600532184904 product:0
+2017/10/21 11:58:40 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T11:58:40.4947847+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 11:58:40 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 11:58:40.4947847 +0800 CST [ }
+2017/10/21 14:19:26 [D] [proc.go:185] init logger succ
+2017/10/21 14:19:26 [D] [main.go:28] init redis succ
+2017/10/21 14:19:26 [D] [init.go:34] init etcd succ
+2017/10/21 14:19:26 [D] [main.go:28] init etcd succ
+2017/10/21 14:19:26 [D] [init.go:41] start get from etcd succ
+2017/10/21 14:19:26 [D] [init.go:41] get from etcd succ, resp:&{cluster_id:14841639068965178418 member_id:10276657743932975437 revision:7 raft_term:8  [key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:7 version:4 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50}]" ] false 1}
+2017/10/21 14:19:26 [D] [init.go:41] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:7 version:4 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50}]" ]
+2017/10/21 14:19:26 [D] [init.go:41] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>}]]
+2017/10/21 14:19:26 [D] [init.go:41] update product info succ, data:[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>}]
+2017/10/21 14:19:26 [D] [init.go:41] init etcd watcher succ
+2017/10/21 14:19:26 [D] [main.go:28] load product succ
+2017/10/21 14:19:26 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/10/21 14:19:26 [D] [main.go:28] init all succ
+2017/10/21 14:19:26 [D] [proc.go:185] init sec layer succ
+2017/10/21 14:19:26 [D] [service.go:6] all process goroutine started
+2017/10/21 14:19:26 [D] [asm_amd64.s:2197] read goroutine running
+2017/10/21 14:19:26 [D] [asm_amd64.s:2197] handle write running
+2017/10/21 14:19:26 [D] [asm_amd64.s:2197] handle user running
+2017/10/21 14:21:42 [D] [asm_amd64.s:2197] get config from etcd, PUT "/oldboy/backend/secskill/product" : "[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508566914,\"EndTime\":1508569914,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50}]"
+
+2017/10/21 14:21:42 [D] [asm_amd64.s:2197] get config from etcd succ, [{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>} {2 1508566914 1508569914 0 200 0 1 0 50 <nil>}]
+2017/10/21 14:22:10 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:22:08.0511088+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:22:10 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 14:22:08.0511088 +0800 CST [ }
+2017/10/21 14:22:10 [D] [redis.go:164] curRate:0.6046602879796196 product:0
+2017/10/21 14:22:21 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:22:21.8778996+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:22:21 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 14:22:21.8778996 +0800 CST [ }
+2017/10/21 14:22:21 [D] [redis.go:164] curRate:0.9405090880450124 product:0
+2017/10/21 14:22:53 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:22:53.7157206+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:22:53 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 14:22:53.7157206 +0800 CST [ }
+2017/10/21 14:22:53 [D] [redis.go:164] curRate:0.6645600532184904 product:0
+2017/10/21 14:22:54 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:22:54.5387677+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:22:54 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 14:22:54.5387677 +0800 CST [ }
+2017/10/21 14:22:54 [D] [redis.go:164] curRate:0.4377141871869802 product:0
+2017/10/21 14:22:55 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:22:55.6248298+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:22:55 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 14:22:55.6248298 +0800 CST [ }
+2017/10/21 14:22:55 [D] [redis.go:164] curRate:0.4246374970712657 product:0
+2017/10/21 14:22:56 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:22:56.3488712+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:22:56 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 14:22:56.3488712 +0800 CST [ }
+2017/10/21 14:22:56 [D] [redis.go:164] curRate:0.6868230728671094 product:0
+2017/10/21 14:22:57 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:22:57.5819418+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:22:57 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 14:22:57.5819418 +0800 CST [ }
+2017/10/21 14:22:57 [D] [redis.go:164] curRate:0.06563701921747622 product:0
+2017/10/21 14:22:59 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:22:59.7940683+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:22:59 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 14:22:59.7940683 +0800 CST [ }
+2017/10/21 14:22:59 [D] [redis.go:164] curRate:0.15651925473279124 product:0
+2017/10/21 14:23:01 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:23:01.1641467+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:23:01 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 14:23:01.1641467 +0800 CST [ }
+2017/10/21 14:23:01 [D] [redis.go:164] curRate:0.09696951891448456 product:0
+2017/10/21 14:23:10 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":2,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:23:10.5196818+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:23:10 [D] [asm_amd64.s:2197] begin process request:&{2     2  2017-10-21 14:23:10.5196818 +0800 CST [ }
+2017/10/21 14:23:10 [D] [redis.go:164] curRate:0.30091186058528707 product:0
+2017/10/21 14:31:56 [D] [asm_amd64.s:2197] get config from etcd, PUT "/oldboy/backend/secskill/product" : "[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508566914,\"EndTime\":1508569914,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":3,\"StartTime\":1508567586,\"EndTime\":1508568386,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":50}]"
+
+2017/10/21 14:31:56 [D] [asm_amd64.s:2197] get config from etcd succ, [{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>} {2 1508566914 1508569914 0 200 0 1 0 50 <nil>} {3 1508567586 1508568386 0 200 0 1 0.5 50 <nil>}]
+2017/10/21 14:33:22 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:33:21.9536538+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:33:22 [D] [asm_amd64.s:2197] begin process request:&{3     2  2017-10-21 14:33:21.9536538 +0800 CST [ }
+2017/10/21 14:33:22 [D] [redis.go:164] curRate:0.5152126285020654 product:0.5
+2017/10/21 14:33:25 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:33:25.5978622+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:33:25 [D] [asm_amd64.s:2197] begin process request:&{3     2  2017-10-21 14:33:25.5978622 +0800 CST [ }
+2017/10/21 14:33:25 [D] [redis.go:164] curRate:0.8136399609900968 product:0.5
+2017/10/21 14:33:27 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:33:27.2479566+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:33:27 [D] [asm_amd64.s:2197] begin process request:&{3     2  2017-10-21 14:33:27.2479566 +0800 CST [ }
+2017/10/21 14:33:27 [D] [redis.go:164] curRate:0.21426387258237492 product:0.5
+2017/10/21 14:33:32 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":2,"UserAuthSign":"","AccessTime":"2017-10-21T14:33:32.5502599+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:33:32 [D] [asm_amd64.s:2197] begin process request:&{3     2  2017-10-21 14:33:32.5502599 +0800 CST [ }
+2017/10/21 14:33:42 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":200,"UserAuthSign":"","AccessTime":"2017-10-21T14:33:42.0518033+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:33:42 [D] [asm_amd64.s:2197] begin process request:&{3     200  2017-10-21 14:33:42.0518033 +0800 CST [ }
+2017/10/21 14:33:42 [D] [redis.go:164] curRate:0.380657189299686 product:0.5
+2017/10/21 14:33:45 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":200,"UserAuthSign":"","AccessTime":"2017-10-21T14:33:45.6950117+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:33:45 [D] [asm_amd64.s:2197] begin process request:&{3     200  2017-10-21 14:33:45.6950117 +0800 CST [ }
+2017/10/21 14:33:50 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":201,"UserAuthSign":"","AccessTime":"2017-10-21T14:33:50.2092699+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:33:50 [D] [asm_amd64.s:2197] begin process request:&{3     201  2017-10-21 14:33:50.2092699 +0800 CST [ }
+2017/10/21 14:33:50 [D] [redis.go:164] curRate:0.31805817433032985 product:0.5
+2017/10/21 14:33:53 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":201,"UserAuthSign":"","AccessTime":"2017-10-21T14:33:53.6614674+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:33:53 [D] [asm_amd64.s:2197] begin process request:&{3     201  2017-10-21 14:33:53.6614674 +0800 CST [ }
+2017/10/21 14:33:57 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":202,"UserAuthSign":"","AccessTime":"2017-10-21T14:33:57.3486783+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:33:57 [D] [asm_amd64.s:2197] begin process request:&{3     202  2017-10-21 14:33:57.3486783 +0800 CST [ }
+2017/10/21 14:33:57 [D] [redis.go:164] curRate:0.4688898449024232 product:0.5
+2017/10/21 14:34:02 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":203,"UserAuthSign":"","AccessTime":"2017-10-21T14:34:02.7919896+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:34:02 [D] [asm_amd64.s:2197] begin process request:&{3     203  2017-10-21 14:34:02.7919896 +0800 CST [ }
+2017/10/21 14:34:02 [D] [redis.go:164] curRate:0.28303415118044517 product:0.5
+2017/10/21 14:34:45 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":204,"UserAuthSign":"","AccessTime":"2017-10-21T14:34:45.7944492+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:34:45 [D] [asm_amd64.s:2197] begin process request:&{3     204  2017-10-21 14:34:45.7944492 +0800 CST [ }
+2017/10/21 14:34:45 [D] [redis.go:164] curRate:0.29310185733681576 product:0.5
+2017/10/21 14:36:49 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":205,"UserAuthSign":"","AccessTime":"2017-10-21T14:36:49.7385384+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:36:49 [D] [asm_amd64.s:2197] begin process request:&{3     205  2017-10-21 14:36:49.7385384 +0800 CST [ }
+2017/10/21 14:36:49 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":204,"UserAuthSign":"","AccessTime":"2017-10-21T14:36:49.7435387+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:36:49 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":206,"UserAuthSign":"","AccessTime":"2017-10-21T14:36:49.783541+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:36:49 [D] [redis.go:164] curRate:0.6790846759202163 product:0.5
+2017/10/21 14:36:49 [D] [asm_amd64.s:2197] begin process request:&{3     204  2017-10-21 14:36:49.7435387 +0800 CST [ }
+2017/10/21 14:36:49 [D] [asm_amd64.s:2197] begin process request:&{3     206  2017-10-21 14:36:49.783541 +0800 CST [ }
+2017/10/21 14:36:49 [D] [redis.go:164] curRate:0.21855305259276428 product:0.5
+2017/10/21 14:40:01 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":206,"UserAuthSign":"","AccessTime":"2017-10-21T14:40:01.3694991+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:40:01 [D] [asm_amd64.s:2197] begin process request:&{3     206  2017-10-21 14:40:01.3694991 +0800 CST [ }
+2017/10/21 14:40:10 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":208,"UserAuthSign":"","AccessTime":"2017-10-21T14:40:10.8890435+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:40:10 [D] [asm_amd64.s:2197] begin process request:&{3     208  2017-10-21 14:40:10.8890435 +0800 CST [ }
+2017/10/21 14:40:10 [D] [redis.go:164] curRate:0.20318687664732285 product:0.5
+2017/10/21 14:40:14 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":209,"UserAuthSign":"","AccessTime":"2017-10-21T14:40:14.1982328+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:40:14 [D] [asm_amd64.s:2197] begin process request:&{3     209  2017-10-21 14:40:14.1982328 +0800 CST [ }
+2017/10/21 14:40:14 [D] [redis.go:164] curRate:0.360871416856906 product:0.5
+2017/10/21 14:40:24 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":210,"UserAuthSign":"","AccessTime":"2017-10-21T14:40:24.6078282+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:40:24 [D] [asm_amd64.s:2197] begin process request:&{3     210  2017-10-21 14:40:24.6078282 +0800 CST [ }
+2017/10/21 14:40:24 [D] [redis.go:164] curRate:0.5706732760710226 product:0.5
+2017/10/21 14:40:32 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":211,"UserAuthSign":"","AccessTime":"2017-10-21T14:40:32.7092916+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:40:32 [D] [asm_amd64.s:2197] begin process request:&{3     211  2017-10-21 14:40:32.7092916 +0800 CST [ }
+2017/10/21 14:40:32 [D] [redis.go:164] curRate:0.8624914374478864 product:0.5
+2017/10/21 14:40:36 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":213,"UserAuthSign":"","AccessTime":"2017-10-21T14:40:36.195491+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:40:36 [D] [asm_amd64.s:2197] begin process request:&{3     213  2017-10-21 14:40:36.195491 +0800 CST [ }
+2017/10/21 14:40:36 [D] [redis.go:164] curRate:0.29311424455385804 product:0.5
+2017/10/21 14:40:44 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":215,"UserAuthSign":"","AccessTime":"2017-10-21T14:40:44.1229444+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:40:44 [D] [asm_amd64.s:2197] begin process request:&{3     215  2017-10-21 14:40:44.1229444 +0800 CST [ }
+2017/10/21 14:40:44 [D] [redis.go:164] curRate:0.29708256355629153 product:0.5
+2017/10/21 14:40:49 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":218,"UserAuthSign":"","AccessTime":"2017-10-21T14:40:49.6862626+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:40:49 [D] [asm_amd64.s:2197] begin process request:&{3     218  2017-10-21 14:40:49.6862626 +0800 CST [ }
+2017/10/21 14:40:49 [D] [redis.go:164] curRate:0.7525730355516119 product:0.5
+2017/10/21 14:40:52 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":218,"UserAuthSign":"","AccessTime":"2017-10-21T14:40:52.9514494+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:40:52 [D] [asm_amd64.s:2197] begin process request:&{3     218  2017-10-21 14:40:52.9514494 +0800 CST [ }
+2017/10/21 14:40:52 [D] [redis.go:164] curRate:0.2065826619136986 product:0.5
+2017/10/21 14:41:10 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":219,"UserAuthSign":"","AccessTime":"2017-10-21T14:41:10.2514389+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:41:10 [D] [asm_amd64.s:2197] begin process request:&{3     219  2017-10-21 14:41:10.2514389 +0800 CST [ }
+2017/10/21 14:41:10 [D] [redis.go:164] curRate:0.865335013001561 product:0.5
+2017/10/21 14:41:14 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":219,"UserAuthSign":"","AccessTime":"2017-10-21T14:41:14.2036649+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:41:14 [D] [asm_amd64.s:2197] begin process request:&{3     219  2017-10-21 14:41:14.2036649 +0800 CST [ }
+2017/10/21 14:41:14 [D] [redis.go:164] curRate:0.6967191657466347 product:0.5
+2017/10/21 14:41:17 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":219,"UserAuthSign":"","AccessTime":"2017-10-21T14:41:17.3478448+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:41:17 [D] [asm_amd64.s:2197] begin process request:&{3     219  2017-10-21 14:41:17.3478448 +0800 CST [ }
+2017/10/21 14:41:17 [D] [redis.go:164] curRate:0.5238203060500009 product:0.5
+2017/10/21 14:41:20 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":219,"UserAuthSign":"","AccessTime":"2017-10-21T14:41:20.2730121+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:41:20 [D] [asm_amd64.s:2197] begin process request:&{3     219  2017-10-21 14:41:20.2730121 +0800 CST [ }
+2017/10/21 14:41:20 [D] [redis.go:164] curRate:0.028303083325889995 product:0.5
+2017/10/21 14:41:38 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":3,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":220,"UserAuthSign":"","AccessTime":"2017-10-21T14:41:38.716067+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:41:38 [D] [asm_amd64.s:2197] begin process request:&{3     220  2017-10-21 14:41:38.716067 +0800 CST [ }
+2017/10/21 14:41:38 [D] [redis.go:164] curRate:0.15832827774512764 product:0.5
+2017/10/21 14:43:18 [D] [asm_amd64.s:2197] get config from etcd, PUT "/oldboy/backend/secskill/product" : "[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508566914,\"EndTime\":1508569914,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":3,\"StartTime\":1508567586,\"EndTime\":1508568386,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":50},{\"ProductId\":4,\"StartTime\":1508568273,\"EndTime\":1508569273,\"Status\":0,\"Total\":10,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":5}]"
+
+2017/10/21 14:43:18 [D] [asm_amd64.s:2197] get config from etcd succ, [{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>} {2 1508566914 1508569914 0 200 0 1 0 50 <nil>} {3 1508567586 1508568386 0 200 0 1 0.5 50 <nil>} {4 1508568273 1508569273 0 10 0 1 0.5 5 <nil>}]
+2017/10/21 14:44:40 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":220,"UserAuthSign":"","AccessTime":"2017-10-21T14:44:40.1684454+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:44:40 [D] [asm_amd64.s:2197] begin process request:&{4     220  2017-10-21 14:44:40.1684454 +0800 CST [ }
+2017/10/21 14:44:40 [D] [redis.go:164] curRate:0.6072534395455154 product:0.5
+2017/10/21 14:44:43 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":220,"UserAuthSign":"","AccessTime":"2017-10-21T14:44:43.9276605+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:44:43 [D] [asm_amd64.s:2197] begin process request:&{4     220  2017-10-21 14:44:43.9276605 +0800 CST [ }
+2017/10/21 14:44:43 [D] [redis.go:164] curRate:0.9752416188605784 product:0.5
+2017/10/21 14:44:47 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":220,"UserAuthSign":"","AccessTime":"2017-10-21T14:44:47.1168429+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:44:47 [D] [asm_amd64.s:2197] begin process request:&{4     220  2017-10-21 14:44:47.1168429 +0800 CST [ }
+2017/10/21 14:44:47 [D] [redis.go:164] curRate:0.07945362337387198 product:0.5
+2017/10/21 14:44:50 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":220,"UserAuthSign":"","AccessTime":"2017-10-21T14:44:50.4540338+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:44:50 [D] [asm_amd64.s:2197] begin process request:&{4     220  2017-10-21 14:44:50.4540338 +0800 CST [ }
+2017/10/21 14:44:55 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":221,"UserAuthSign":"","AccessTime":"2017-10-21T14:44:55.4213179+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:44:55 [D] [asm_amd64.s:2197] begin process request:&{4     221  2017-10-21 14:44:55.4213179 +0800 CST [ }
+2017/10/21 14:44:55 [D] [redis.go:164] curRate:0.5948085976830626 product:0.5
+2017/10/21 14:44:58 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":221,"UserAuthSign":"","AccessTime":"2017-10-21T14:44:58.9655206+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:44:58 [D] [asm_amd64.s:2197] begin process request:&{4     221  2017-10-21 14:44:58.9655206 +0800 CST [ }
+2017/10/21 14:44:58 [D] [redis.go:164] curRate:0.05912065131387529 product:0.5
+2017/10/21 14:45:03 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":222,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:03.1567603+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:03 [D] [asm_amd64.s:2197] begin process request:&{4     222  2017-10-21 14:45:03.1567603 +0800 CST [ }
+2017/10/21 14:45:03 [D] [redis.go:164] curRate:0.692024587353112 product:0.5
+2017/10/21 14:45:05 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":222,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:05.7689097+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:05 [D] [asm_amd64.s:2197] begin process request:&{4     222  2017-10-21 14:45:05.7689097 +0800 CST [ }
+2017/10/21 14:45:05 [D] [redis.go:164] curRate:0.30152268100656 product:0.5
+2017/10/21 14:45:09 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":223,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:09.7701386+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:09 [D] [asm_amd64.s:2197] begin process request:&{4     223  2017-10-21 14:45:09.7701386 +0800 CST [ }
+2017/10/21 14:45:09 [D] [redis.go:164] curRate:0.17326623818270528 product:0.5
+2017/10/21 14:45:13 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":224,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:13.2773392+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:13 [D] [asm_amd64.s:2197] begin process request:&{4     224  2017-10-21 14:45:13.2773392 +0800 CST [ }
+2017/10/21 14:45:13 [D] [redis.go:164] curRate:0.5410998550087353 product:0.5
+2017/10/21 14:45:15 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":224,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:15.4024607+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:15 [D] [asm_amd64.s:2197] begin process request:&{4     224  2017-10-21 14:45:15.4024607 +0800 CST [ }
+2017/10/21 14:45:15 [D] [redis.go:164] curRate:0.544155573000885 product:0.5
+2017/10/21 14:45:16 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":224,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:16.7485377+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:16 [D] [asm_amd64.s:2197] begin process request:&{4     224  2017-10-21 14:45:16.7485377 +0800 CST [ }
+2017/10/21 14:45:16 [D] [redis.go:164] curRate:0.27850762181610883 product:0.5
+2017/10/21 14:45:20 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":225,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:20.8807741+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:20 [D] [asm_amd64.s:2197] begin process request:&{4     225  2017-10-21 14:45:20.8807741 +0800 CST [ }
+2017/10/21 14:45:20 [D] [redis.go:164] curRate:0.4231522015718281 product:0.5
+2017/10/21 14:45:25 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":226,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:25.4500354+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:25 [D] [asm_amd64.s:2197] begin process request:&{4     226  2017-10-21 14:45:25.4500354 +0800 CST [ }
+2017/10/21 14:45:25 [D] [redis.go:164] curRate:0.5305857153507052 product:0.5
+2017/10/21 14:45:28 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":226,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:28.2651964+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:28 [D] [asm_amd64.s:2197] begin process request:&{4     226  2017-10-21 14:45:28.2651964 +0800 CST [ }
+2017/10/21 14:45:28 [D] [redis.go:164] curRate:0.2535405005150605 product:0.5
+2017/10/21 14:45:31 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":227,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:31.4683796+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:31 [D] [asm_amd64.s:2197] begin process request:&{4     227  2017-10-21 14:45:31.4683796 +0800 CST [ }
+2017/10/21 14:45:31 [D] [redis.go:164] curRate:0.28208099496492467 product:0.5
+2017/10/21 14:45:35 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":228,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:35.1955928+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:35 [D] [asm_amd64.s:2197] begin process request:&{4     228  2017-10-21 14:45:35.1955928 +0800 CST [ }
+2017/10/21 14:45:35 [D] [redis.go:164] curRate:0.7886049150193449 product:0.5
+2017/10/21 14:45:36 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":228,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:36.7666827+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:36 [D] [asm_amd64.s:2197] begin process request:&{4     228  2017-10-21 14:45:36.7666827 +0800 CST [ }
+2017/10/21 14:45:36 [D] [redis.go:164] curRate:0.3618054804803169 product:0.5
+2017/10/21 14:45:42 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":229,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:42.7000221+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:42 [D] [asm_amd64.s:2197] begin process request:&{4     229  2017-10-21 14:45:42.7000221 +0800 CST [ }
+2017/10/21 14:45:42 [D] [redis.go:164] curRate:0.8805431227416171 product:0.5
+2017/10/21 14:45:45 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":229,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:45.2101656+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:45 [D] [asm_amd64.s:2197] begin process request:&{4     229  2017-10-21 14:45:45.2101656 +0800 CST [ }
+2017/10/21 14:45:45 [D] [redis.go:164] curRate:0.2971122606397708 product:0.5
+2017/10/21 14:45:49 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":230,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:49.7294241+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:49 [D] [asm_amd64.s:2197] begin process request:&{4     230  2017-10-21 14:45:49.7294241 +0800 CST [ }
+2017/10/21 14:45:49 [D] [redis.go:164] curRate:0.8943617293304537 product:0.5
+2017/10/21 14:45:52 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":230,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:52.017555+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:52 [D] [asm_amd64.s:2197] begin process request:&{4     230  2017-10-21 14:45:52.017555 +0800 CST [ }
+2017/10/21 14:45:52 [D] [redis.go:164] curRate:0.09745461839911657 product:0.5
+2017/10/21 14:45:56 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":231,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:56.1537916+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:56 [D] [asm_amd64.s:2197] begin process request:&{4     231  2017-10-21 14:45:56.1537916 +0800 CST [ }
+2017/10/21 14:45:56 [D] [redis.go:164] curRate:0.9769168685862624 product:0.5
+2017/10/21 14:45:57 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":231,"UserAuthSign":"","AccessTime":"2017-10-21T14:45:57.8198869+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:45:57 [D] [asm_amd64.s:2197] begin process request:&{4     231  2017-10-21 14:45:57.8198869 +0800 CST [ }
+2017/10/21 14:45:57 [D] [redis.go:164] curRate:0.07429099894984302 product:0.5
+2017/10/21 14:46:01 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":232,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:01.2160811+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:01 [D] [asm_amd64.s:2197] begin process request:&{4     232  2017-10-21 14:46:01.2160811 +0800 CST [ }
+2017/10/21 14:46:01 [D] [redis.go:164] curRate:0.22228941700678773 product:0.5
+2017/10/21 14:46:02 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":232,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:02.8961772+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:02 [D] [asm_amd64.s:2197] begin process request:&{4     232  2017-10-21 14:46:02.8961772 +0800 CST [ }
+2017/10/21 14:46:04 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":232,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:04.9652956+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:04 [D] [asm_amd64.s:2197] begin process request:&{4     232  2017-10-21 14:46:04.9652956 +0800 CST [ }
+2017/10/21 14:46:07 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":233,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:07.9464661+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:07 [D] [asm_amd64.s:2197] begin process request:&{4     233  2017-10-21 14:46:07.9464661 +0800 CST [ }
+2017/10/21 14:46:07 [D] [redis.go:164] curRate:0.6810783123925709 product:0.5
+2017/10/21 14:46:09 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":233,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:09.7015665+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:09 [D] [asm_amd64.s:2197] begin process request:&{4     233  2017-10-21 14:46:09.7015665 +0800 CST [ }
+2017/10/21 14:46:09 [D] [redis.go:164] curRate:0.24151508854715265 product:0.5
+2017/10/21 14:46:14 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":234,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:14.2698277+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:14 [D] [asm_amd64.s:2197] begin process request:&{4     234  2017-10-21 14:46:14.2698277 +0800 CST [ }
+2017/10/21 14:46:14 [D] [redis.go:164] curRate:0.31152244431052484 product:0.5
+2017/10/21 14:46:16 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":234,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:16.5439578+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:16 [D] [asm_amd64.s:2197] begin process request:&{4     234  2017-10-21 14:46:16.5439578 +0800 CST [ }
+2017/10/21 14:46:18 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":234,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:18.1320486+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:18 [D] [asm_amd64.s:2197] begin process request:&{4     234  2017-10-21 14:46:18.1320486 +0800 CST [ }
+2017/10/21 14:46:19 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":234,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:19.275114+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:19 [D] [asm_amd64.s:2197] begin process request:&{4     234  2017-10-21 14:46:19.275114 +0800 CST [ }
+2017/10/21 14:46:21 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":235,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:21.2552273+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:21 [D] [asm_amd64.s:2197] begin process request:&{4     235  2017-10-21 14:46:21.2552273 +0800 CST [ }
+2017/10/21 14:46:21 [D] [redis.go:164] curRate:0.932846428518434 product:0.5
+2017/10/21 14:46:24 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":235,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:24.642421+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:24 [D] [asm_amd64.s:2197] begin process request:&{4     235  2017-10-21 14:46:24.642421 +0800 CST [ }
+2017/10/21 14:46:24 [D] [redis.go:164] curRate:0.741848959991823 product:0.5
+2017/10/21 14:46:25 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":235,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:25.7804861+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:25 [D] [asm_amd64.s:2197] begin process request:&{4     235  2017-10-21 14:46:25.7804861 +0800 CST [ }
+2017/10/21 14:46:25 [D] [redis.go:164] curRate:0.8010550426526613 product:0.5
+2017/10/21 14:46:26 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":235,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:26.6675368+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:26 [D] [asm_amd64.s:2197] begin process request:&{4     235  2017-10-21 14:46:26.6675368 +0800 CST [ }
+2017/10/21 14:46:26 [D] [redis.go:164] curRate:0.7302314772948083 product:0.5
+2017/10/21 14:46:27 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":235,"UserAuthSign":"","AccessTime":"2017-10-21T14:46:27.667594+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:46:27 [D] [asm_amd64.s:2197] begin process request:&{4     235  2017-10-21 14:46:27.667594 +0800 CST [ }
+2017/10/21 14:46:27 [D] [redis.go:164] curRate:0.18292491645390843 product:0.5
+2017/10/21 14:47:35 [D] [proc.go:185] init logger succ
+2017/10/21 14:47:35 [D] [main.go:28] init redis succ
+2017/10/21 14:47:35 [D] [init.go:34] init etcd succ
+2017/10/21 14:47:35 [D] [main.go:28] init etcd succ
+2017/10/21 14:47:35 [D] [init.go:41] start get from etcd succ
+2017/10/21 14:47:35 [D] [init.go:41] get from etcd succ, resp:&{cluster_id:14841639068965178418 member_id:10276657743932975437 revision:10 raft_term:8  [key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:10 version:7 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508566914,\"EndTime\":1508569914,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":3,\"StartTime\":1508567586,\"EndTime\":1508568386,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":50},{\"ProductId\":4,\"StartTime\":1508568273,\"EndTime\":1508569273,\"Status\":0,\"Total\":10,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":5}]" ] false 1}
+2017/10/21 14:47:35 [D] [init.go:41] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:10 version:7 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508566914,\"EndTime\":1508569914,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":3,\"StartTime\":1508567586,\"EndTime\":1508568386,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":50},{\"ProductId\":4,\"StartTime\":1508568273,\"EndTime\":1508569273,\"Status\":0,\"Total\":10,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":5}]" ]
+2017/10/21 14:47:35 [D] [init.go:41] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>} {2 1508566914 1508569914 0 200 0 1 0 50 <nil>} {3 1508567586 1508568386 0 200 0 1 0.5 50 <nil>} {4 1508568273 1508569273 0 10 0 1 0.5 5 <nil>}]]
+2017/10/21 14:47:35 [D] [init.go:41] update product info succ, data:[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>} {2 1508566914 1508569914 0 200 0 1 0 50 <nil>} {3 1508567586 1508568386 0 200 0 1 0.5 50 <nil>} {4 1508568273 1508569273 0 10 0 1 0.5 5 <nil>}]
+2017/10/21 14:47:35 [D] [init.go:41] init etcd watcher succ
+2017/10/21 14:47:35 [D] [main.go:28] load product succ
+2017/10/21 14:47:35 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/10/21 14:47:36 [D] [main.go:28] init all succ
+2017/10/21 14:47:36 [D] [proc.go:185] init sec layer succ
+2017/10/21 14:47:36 [D] [service.go:6] all process goroutine started
+2017/10/21 14:47:36 [D] [asm_amd64.s:2197] handle user running
+2017/10/21 14:47:36 [D] [asm_amd64.s:2197] read goroutine running
+2017/10/21 14:47:36 [D] [asm_amd64.s:2197] handle write running
+2017/10/21 14:47:40 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":235,"UserAuthSign":"","AccessTime":"2017-10-21T14:47:40.9127834+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:47:40 [D] [asm_amd64.s:2197] begin process request:&{4     235  2017-10-21 14:47:40.9127834 +0800 CST [ }
+2017/10/21 14:47:45 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":236,"UserAuthSign":"","AccessTime":"2017-10-21T14:47:45.7670611+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:47:45 [D] [asm_amd64.s:2197] begin process request:&{4     236  2017-10-21 14:47:45.7670611 +0800 CST [ }
+2017/10/21 14:47:47 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":236,"UserAuthSign":"","AccessTime":"2017-10-21T14:47:47.8261789+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:47:47 [D] [asm_amd64.s:2197] begin process request:&{4     236  2017-10-21 14:47:47.8261789 +0800 CST [ }
+2017/10/21 14:47:48 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":236,"UserAuthSign":"","AccessTime":"2017-10-21T14:47:48.7632325+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:47:48 [D] [asm_amd64.s:2197] begin process request:&{4     236  2017-10-21 14:47:48.7632325 +0800 CST [ }
+2017/10/21 14:50:38 [D] [proc.go:185] init logger succ
+2017/10/21 14:50:38 [D] [main.go:28] init redis succ
+2017/10/21 14:50:38 [D] [init.go:34] init etcd succ
+2017/10/21 14:50:38 [D] [main.go:28] init etcd succ
+2017/10/21 14:50:38 [D] [init.go:41] start get from etcd succ
+2017/10/21 14:50:38 [D] [init.go:41] get from etcd succ, resp:&{cluster_id:14841639068965178418 member_id:10276657743932975437 revision:10 raft_term:8  [key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:10 version:7 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508566914,\"EndTime\":1508569914,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":3,\"StartTime\":1508567586,\"EndTime\":1508568386,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":50},{\"ProductId\":4,\"StartTime\":1508568273,\"EndTime\":1508569273,\"Status\":0,\"Total\":10,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":5}]" ] false 1}
+2017/10/21 14:50:38 [D] [init.go:41] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:10 version:7 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508566914,\"EndTime\":1508569914,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":3,\"StartTime\":1508567586,\"EndTime\":1508568386,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":50},{\"ProductId\":4,\"StartTime\":1508568273,\"EndTime\":1508569273,\"Status\":0,\"Total\":10,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":5}]" ]
+2017/10/21 14:50:38 [D] [init.go:41] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>} {2 1508566914 1508569914 0 200 0 1 0 50 <nil>} {3 1508567586 1508568386 0 200 0 1 0.5 50 <nil>} {4 1508568273 1508569273 0 10 0 1 0.5 5 <nil>}]]
+2017/10/21 14:50:38 [D] [init.go:41] update product info succ, data:[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>} {2 1508566914 1508569914 0 200 0 1 0 50 <nil>} {3 1508567586 1508568386 0 200 0 1 0.5 50 <nil>} {4 1508568273 1508569273 0 10 0 1 0.5 5 <nil>}]
+2017/10/21 14:50:38 [D] [init.go:41] init etcd watcher succ
+2017/10/21 14:50:38 [D] [main.go:28] load product succ
+2017/10/21 14:50:38 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/10/21 14:50:38 [D] [main.go:28] init all succ
+2017/10/21 14:50:38 [D] [proc.go:185] init sec layer succ
+2017/10/21 14:50:38 [D] [service.go:6] all process goroutine started
+2017/10/21 14:50:38 [D] [asm_amd64.s:2197] read goroutine running
+2017/10/21 14:50:38 [D] [asm_amd64.s:2197] handle write running
+2017/10/21 14:50:38 [D] [asm_amd64.s:2197] handle user running
+2017/10/21 14:50:43 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":237,"UserAuthSign":"","AccessTime":"2017-10-21T14:50:43.2332116+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:50:43 [D] [asm_amd64.s:2197] begin process request:&{4     237  2017-10-21 14:50:43.2332116 +0800 CST [ }
+2017/10/21 14:50:45 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":237,"UserAuthSign":"","AccessTime":"2017-10-21T14:50:45.2223253+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:50:45 [D] [asm_amd64.s:2197] begin process request:&{4     237  2017-10-21 14:50:45.2223253 +0800 CST [ }
+2017/10/21 14:50:46 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":237,"UserAuthSign":"","AccessTime":"2017-10-21T14:50:46.2573845+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:50:46 [D] [asm_amd64.s:2197] begin process request:&{4     237  2017-10-21 14:50:46.2573845 +0800 CST [ }
+2017/10/21 14:50:47 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":237,"UserAuthSign":"","AccessTime":"2017-10-21T14:50:47.7594705+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:50:47 [D] [asm_amd64.s:2197] begin process request:&{4     237  2017-10-21 14:50:47.7594705 +0800 CST [ }
+2017/10/21 14:50:57 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":238,"UserAuthSign":"","AccessTime":"2017-10-21T14:50:57.1970102+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:50:57 [D] [asm_amd64.s:2197] begin process request:&{4     238  2017-10-21 14:50:57.1970102 +0800 CST [ }
+2017/10/21 14:51:07 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":239,"UserAuthSign":"","AccessTime":"2017-10-21T14:51:07.1705807+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:51:07 [D] [asm_amd64.s:2197] begin process request:&{4     239  2017-10-21 14:51:07.1705807 +0800 CST [ }
+2017/10/21 14:51:08 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":239,"UserAuthSign":"","AccessTime":"2017-10-21T14:51:08.871678+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:51:08 [D] [asm_amd64.s:2197] begin process request:&{4     239  2017-10-21 14:51:08.871678 +0800 CST [ }
+2017/10/21 14:53:53 [D] [proc.go:185] init logger succ
+2017/10/21 14:53:53 [D] [main.go:28] init redis succ
+2017/10/21 14:53:53 [D] [init.go:34] init etcd succ
+2017/10/21 14:53:53 [D] [main.go:28] init etcd succ
+2017/10/21 14:53:53 [D] [init.go:41] start get from etcd succ
+2017/10/21 14:53:53 [D] [init.go:41] get from etcd succ, resp:&{cluster_id:14841639068965178418 member_id:10276657743932975437 revision:10 raft_term:8  [key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:10 version:7 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508566914,\"EndTime\":1508569914,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":3,\"StartTime\":1508567586,\"EndTime\":1508568386,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":50},{\"ProductId\":4,\"StartTime\":1508568273,\"EndTime\":1508569273,\"Status\":0,\"Total\":10,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":5}]" ] false 1}
+2017/10/21 14:53:53 [D] [init.go:41] key[0] valud[key:"/oldboy/backend/secskill/product" create_revision:4 mod_revision:10 version:7 value:"[{\"ProductId\":1029,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":1000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1027,\"StartTime\":1505008800,\"EndTime\":1505012400,\"Status\":0,\"Total\":2000,\"Left\":1000,\"OnePersonBuyLimit\":0,\"BuyRate\":0,\"SoldMaxLimit\":0},{\"ProductId\":1,\"StartTime\":1508553193,\"EndTime\":1508555193,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508555393,\"EndTime\":1508655393,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":2,\"StartTime\":1508566914,\"EndTime\":1508569914,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0,\"SoldMaxLimit\":50},{\"ProductId\":3,\"StartTime\":1508567586,\"EndTime\":1508568386,\"Status\":0,\"Total\":200,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":50},{\"ProductId\":4,\"StartTime\":1508568273,\"EndTime\":1508569273,\"Status\":0,\"Total\":10,\"Left\":0,\"OnePersonBuyLimit\":1,\"BuyRate\":0.5,\"SoldMaxLimit\":5}]" ]
+2017/10/21 14:53:53 [D] [init.go:41] sec info conf is [[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>} {2 1508566914 1508569914 0 200 0 1 0 50 <nil>} {3 1508567586 1508568386 0 200 0 1 0.5 50 <nil>} {4 1508568273 1508569273 0 10 0 1 0.5 5 <nil>}]]
+2017/10/21 14:53:53 [D] [init.go:41] update product info succ, data:[{1029 1505008800 1505012400 0 1000 1000 0 0 0 <nil>} {1027 1505008800 1505012400 0 2000 1000 0 0 0 <nil>} {1 1508553193 1508555193 0 200 0 1 0 50 <nil>} {2 1508555393 1508655393 0 200 0 1 0 50 <nil>} {2 1508566914 1508569914 0 200 0 1 0 50 <nil>} {3 1508567586 1508568386 0 200 0 1 0.5 50 <nil>} {4 1508568273 1508569273 0 10 0 1 0.5 5 <nil>}]
+2017/10/21 14:53:53 [D] [init.go:41] init etcd watcher succ
+2017/10/21 14:53:53 [D] [main.go:28] load product succ
+2017/10/21 14:53:53 [D] [asm_amd64.s:2197] begin watch key:/oldboy/backend/secskill/product
+2017/10/21 14:53:53 [D] [main.go:28] init all succ
+2017/10/21 14:53:53 [D] [proc.go:185] init sec layer succ
+2017/10/21 14:53:53 [D] [service.go:6] all process goroutine started
+2017/10/21 14:53:53 [D] [asm_amd64.s:2197] handle user running
+2017/10/21 14:53:53 [D] [asm_amd64.s:2197] handle write running
+2017/10/21 14:53:53 [D] [asm_amd64.s:2197] read goroutine running
+2017/10/21 14:54:00 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":240,"UserAuthSign":"","AccessTime":"2017-10-21T14:54:00.5224959+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:54:00 [D] [asm_amd64.s:2197] begin process request:&{4     240  2017-10-21 14:54:00.5224959 +0800 CST [ }
+2017/10/21 14:54:03 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":240,"UserAuthSign":"","AccessTime":"2017-10-21T14:54:03.6106725+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:54:03 [D] [asm_amd64.s:2197] begin process request:&{4     240  2017-10-21 14:54:03.6106725 +0800 CST [ }
+2017/10/21 14:54:05 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":240,"UserAuthSign":"","AccessTime":"2017-10-21T14:54:05.8888028+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:54:05 [D] [asm_amd64.s:2197] begin process request:&{4     240  2017-10-21 14:54:05.8888028 +0800 CST [ }
+2017/10/21 14:54:07 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":240,"UserAuthSign":"","AccessTime":"2017-10-21T14:54:07.8929174+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:54:07 [D] [asm_amd64.s:2197] begin process request:&{4     240  2017-10-21 14:54:07.8929174 +0800 CST [ }
+2017/10/21 14:54:36 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":241,"UserAuthSign":"","AccessTime":"2017-10-21T14:54:36.7465678+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:54:36 [D] [asm_amd64.s:2197] begin process request:&{4     241  2017-10-21 14:54:36.7465678 +0800 CST [ }
+2017/10/21 14:54:49 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":242,"UserAuthSign":"","AccessTime":"2017-10-21T14:54:49.6933083+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:54:49 [D] [asm_amd64.s:2197] begin process request:&{4     242  2017-10-21 14:54:49.6933083 +0800 CST [ }
+2017/10/21 14:54:51 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":242,"UserAuthSign":"","AccessTime":"2017-10-21T14:54:51.4534089+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:54:51 [D] [asm_amd64.s:2197] begin process request:&{4     242  2017-10-21 14:54:51.4534089 +0800 CST [ }
+2017/10/21 14:55:01 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":243,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:01.0969605+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:01 [D] [asm_amd64.s:2197] begin process request:&{4     243  2017-10-21 14:55:01.0969605 +0800 CST [ }
+2017/10/21 14:55:07 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":244,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:07.9623532+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:07 [D] [asm_amd64.s:2197] begin process request:&{4     244  2017-10-21 14:55:07.9623532 +0800 CST [ }
+2017/10/21 14:55:13 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":245,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:13.658679+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:13 [D] [asm_amd64.s:2197] begin process request:&{4     245  2017-10-21 14:55:13.658679 +0800 CST [ }
+2017/10/21 14:55:22 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":246,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:22.0281577+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:22 [D] [asm_amd64.s:2197] begin process request:&{4     246  2017-10-21 14:55:22.0281577 +0800 CST [ }
+2017/10/21 14:55:24 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":246,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:24.5052994+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:24 [D] [asm_amd64.s:2197] begin process request:&{4     246  2017-10-21 14:55:24.5052994 +0800 CST [ }
+2017/10/21 14:55:25 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":246,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:25.284344+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:25 [D] [asm_amd64.s:2197] begin process request:&{4     246  2017-10-21 14:55:25.284344 +0800 CST [ }
+2017/10/21 14:55:31 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":247,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:31.264686+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:31 [D] [asm_amd64.s:2197] begin process request:&{4     247  2017-10-21 14:55:31.264686 +0800 CST [ }
+2017/10/21 14:55:36 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":248,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:36.9930137+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:36 [D] [asm_amd64.s:2197] begin process request:&{4     248  2017-10-21 14:55:36.9930137 +0800 CST [ }
+2017/10/21 14:55:43 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":249,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:43.519387+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:43 [D] [asm_amd64.s:2197] begin process request:&{4     249  2017-10-21 14:55:43.519387 +0800 CST [ }
+2017/10/21 14:55:49 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:49.3557208+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:49 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:55:49.3557208 +0800 CST [ }
+2017/10/21 14:55:51 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:51.7078553+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:51 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:55:51.7078553 +0800 CST [ }
+2017/10/21 14:55:53 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:53.031931+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:53 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:55:53.031931 +0800 CST [ }
+2017/10/21 14:55:54 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:54.1239935+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:54 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:55:54.1239935 +0800 CST [ }
+2017/10/21 14:55:55 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:55.3150616+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:55 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:55:55.3150616 +0800 CST [ }
+2017/10/21 14:55:56 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:55:56.4221249+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:55:56 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:55:56.4221249 +0800 CST [ }
+2017/10/21 14:56:46 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:56:46.4869885+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:56:46 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:56:46.4869885 +0800 CST [ }
+2017/10/21 14:56:47 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:56:47.4270423+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:56:47 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:56:47.4270423 +0800 CST [ }
+2017/10/21 14:56:48 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:56:48.4491007+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:56:48 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:56:48.4491007 +0800 CST [ }
+2017/10/21 14:56:50 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:56:50.0901946+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:56:50 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:56:50.0901946 +0800 CST [ }
+2017/10/21 14:56:51 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:56:51.0082471+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:56:51 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:56:51.0082471 +0800 CST [ }
+2017/10/21 14:57:03 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":250,"UserAuthSign":"","AccessTime":"2017-10-21T14:57:03.1839435+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:57:03 [D] [asm_amd64.s:2197] begin process request:&{4     250  2017-10-21 14:57:03.1839435 +0800 CST [ }
+2017/10/21 14:57:07 [D] [asm_amd64.s:2197] pop from queue, data:{"ProductId":4,"Source":"","AuthCode":"","SecTime":"","Nance":"","UserId":251,"UserAuthSign":"","AccessTime":"2017-10-21T14:57:07.5491932+08:00","ClientAddr":"[","ClientRefence":""}
+2017/10/21 14:57:07 [D] [asm_amd64.s:2197] begin process request:&{4     251  2017-10-21 14:57:07.5491932 +0800 CST [ }
